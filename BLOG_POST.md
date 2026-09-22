@@ -121,7 +121,7 @@ A fifth fine-tune with a verification step that names its own scope ("this claim
 
 ## References
 
-- Askin et al. (2026). arXiv:2605.12798.
+- Askin et al. (2026). Emergent and Subliminal Misalignment Through the Lens of Data-Mediated Transfer. arXiv:2605.12798.
 - Baek et al. (2026). Sycophancy Towards Researchers Drives Performative Misalignment. arXiv:2606.08629.
 - Betley et al. (2025). Emergent Misalignment. ICML 2025. arXiv:2502.17424.
 - Cheng et al. (2026). Euston. arXiv:2609.23205.
