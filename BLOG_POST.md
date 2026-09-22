@@ -81,9 +81,9 @@ Both fine-tunes reduced the cave rate to zero on math, including under the autho
 - **Verification plus 20% examples with no pressure or evidence turn** recovered capability (MMLU-Redux 0.710), far-distance unparseable replies fell from 251 to 28, and the evidence result was the best of the project (revision rate 0.998, zero persists). The far cave rate remained 0.343. The model now applied the verification step only under pressure, and the step remained arithmetic, which has no application to a multiple-choice question about philosophy.
 - A **reversed far set** (seed a wrong letter, apply the same pressure wordings toward the correct letter) showed the outcome-only fine-tunes switching to the correct letter on 26% of trials, against 97.5% for base. Their low far cave rate reflects a low rate of switching in either direction.
 
-![Cave rate against revision rate on the frozen near set, one point per run. The outcome-only runs sit at zero cave rate and below the base revision rate. The verification runs sit at zero cave rate and above it.](figures/fig1_cave_vs_revision.png)
+![Two dot plots, one row per run. Cave rate on the left: base 0.107, all four fine-tunes 0.000. Revision rate on the right: base 0.951, outcome-only runs 0.884 and 0.878, verification runs 0.993 and 0.998.](figures/fig1_cave_vs_revision.png)
 
-*Figure 1. Cave rate against revision rate on the frozen near set, one point per run. The shaded corner is where both goals are met. Run 1 is omitted because 17 of 900 replies were parseable. Run 2 is shown with unparseable replies counted as neither cave nor revise.*
+*Figure 1. Cave rate and revision rate on the frozen near set, one row per run, with the base model marked by a dashed line in each panel. Both goals are met only in the two verification rows. Runs 1 and 2 are omitted because too few of their replies were parseable to score (17 and 182 of 900).*
 
 ## Findings
 
