@@ -4,9 +4,23 @@
 
 *A BlueDot Impact technical AI safety project by Nathan Batty. Draft, 15 September 2026, revised 22 September.*
 
+## In brief
+
+Language models often abandon a correct answer when a user insists it is wrong. I fine-tuned a small open model four ways to see what kind of training reduces that without making the model ignore correct evidence. Training on replies that show a checking step did both. Training on replies that only state the answer produced a model that stopped changing its mind at all, and a test that measured only caving would have called it a success.
+
 ## Why this matters
 
 Language models cave. Told confidently that a correct answer is wrong, they switch to the wrong answer a measurable fraction of the time. The desired behavior is selective resistance, which means holding when the user supplies no evidence and revising when the user supplies valid evidence. Most sycophancy work measures caving alone. This project measured caving and revision together and asked what kind of fine-tuning data produces the first without damaging the second.
+
+**The connection to advanced AI.** Training and oversight both depend on the model reporting what it has concluded rather than what the person in front of it wants to hear. A model that agrees with its evaluator corrupts the signal used to train and check it, and the corruption grows with capability, because a more capable model is better at working out what the evaluator wants. Sharma and colleagues (2024) showed that human preference data itself favors agreement, so the default pressure of training runs toward sycophancy rather than away from it.
+
+**The gap.** Most published sycophancy work reports how often a model caves. That number alone cannot distinguish a model that has learned to weigh evidence from a model that has learned to hold its position. The second kind is worse from a safety standpoint. A model that does not update on evidence is also a model that resists correction, which is the failure the corrigibility literature (Soares et al. 2015) treats as central. This project fills the gap by scoring revision alongside caving and by asking which property of the training data decides which of the two you get.
+
+**What should change if the finding holds.** Two practices, both cheap enough to adopt in any fine-tune. Every sycophancy evaluation should include an evidence arm, so that a reduction in caving cannot be reported without its cost to revision. Training data meant to reduce caving should show the model checking before it answers, rather than showing the answer alone. Neither requires new infrastructure. The second is a claim about the shape of training replies and not their number, since the token-matched control in run 4 reproduced the stubbornness.
+
+## Related work
+
+Sharma et al. (2024) characterized sycophancy across deployed assistants and traced part of it to preference data. Wei et al. (2023) reduced agreement with incorrect user claims using simple synthetic data and measured that agreement. Perez et al. (2022) introduced model-written evaluations, including sycophancy tests, that measure agreement alone. None of these report how the intervention affects revision when the user is right. Greenblatt et al. (2024) documented a model reasoning about resisting modification to its values, which is the direction a stubborn fine-tune moves in. MathDial (Macina et al. 2023) supplied the tutoring dialogues for runs 1 and 2, and GSM8K (Cobbe et al. 2021) and MMLU-Redux (Gema et al. 2024) supplied the evaluation problems.
 
 ## Terms
 
@@ -67,6 +81,10 @@ Both fine-tunes reduced the cave rate to zero on math, including under the autho
 - **Verification plus 20% examples with no pressure or evidence turn** recovered capability (MMLU-Redux 0.710), far-distance unparseable replies fell from 251 to 28, and the evidence result was the best of the project (revision rate 0.998, zero persists). The far cave rate remained 0.343. The model now applied the verification step only under pressure, and the step remained arithmetic, which has no application to a multiple-choice question about philosophy.
 - A **reversed far set** (seed a wrong letter, apply the same pressure wordings toward the correct letter) showed the outcome-only fine-tunes switching to the correct letter on 26% of trials, against 97.5% for base. Their low far cave rate reflects a low rate of switching in either direction.
 
+![Cave rate against revision rate on the frozen near set, one point per run. The outcome-only runs sit at zero cave rate and below the base revision rate. The verification runs sit at zero cave rate and above it.](figures/fig1_cave_vs_revision.png)
+
+*Figure 1. Cave rate against revision rate on the frozen near set, one point per run. The shaded corner is where both goals are met. Run 1 is omitted because 17 of 900 replies were parseable. Run 2 is shown with unparseable replies counted as neither cave nor revise.*
+
 ## Findings
 
 1. Fine-tuning on MathDial dialogues transferred the tutor's speech style and turn-taking. The cave rate did not improve on pressure phrased as assertion and worsened on pressure phrased as instruction. Two runs and a full read of all 450 pressure replies support this.
@@ -88,4 +106,4 @@ Qwen3-8B on Tinker, LoRA rank 32, learning rate 4.7e-4 with linear decay, thinki
 
 A fifth fine-tune with a verification step that names its own scope ("this claim concerns a definition, so I re-read the question and test each option against it") or with training exchanges in a second domain would test whether selective resistance can be given a method that applies outside arithmetic. After that, an evidence arm at far distance, additional seeds, and non-templated replies.
 
-*Code, configs, data manifests, raw outputs and per-run analyses are in the project repository (link to follow; currently private).*
+*Code, configs, data manifests, raw model outputs and per-run analyses: https://github.com/FedExodus/selective-resistance. Training data derived from MathDial is not redistributed (CC BY-SA 4.0); the download and preprocessing scripts rebuild it at pinned revisions.*

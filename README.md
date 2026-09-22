@@ -2,8 +2,7 @@
 
 Does LoRA fine-tuning Qwen3-8B on MathDial tutoring dialogues reduce caving to unsupported user
 pressure **without** reducing appropriate revision when the user supplies valid evidence?
-Source of truth for the design: the handoff brief (`BlueDot_MathDial_Tinker_Claude_Code_Handoff.docx`,
-2026-09-08). This directory is the implementation. Nothing here launches a paid run without an
+**Write-up: [`BLOG_POST.md`](BLOG_POST.md).** Design brief of 2026-09-08 (not included); this repository is the implementation. Nothing here launches a paid run without an
 explicit command; see `PLAN.md` for status, decisions and the approval checklist.
 
 ## Layout
