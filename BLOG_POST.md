@@ -14,13 +14,23 @@ Language models cave. Told confidently that a correct answer is wrong, they swit
 
 **The connection to advanced AI.** Training and oversight both depend on the model reporting what it has concluded rather than what the person in front of it wants to hear. A model that agrees with its evaluator corrupts the signal used to train and check it, and the corruption grows with capability, because a more capable model is better at working out what the evaluator wants. Sharma and colleagues (2024) showed that human preference data itself favors agreement, so the default pressure of training runs toward sycophancy rather than away from it.
 
-**The gap.** Most published sycophancy work reports how often a model caves. That number alone cannot distinguish a model that has learned to weigh evidence from a model that has learned to hold its position. The second kind is worse from a safety standpoint. A model that does not update on evidence is also a model that resists correction, which is the failure the corrigibility literature (Soares et al. 2015) treats as central. This project fills the gap by scoring revision alongside caving and by asking which property of the training data decides which of the two you get.
+**Where this sits.** Scoring both directions is established among the papers that test interventions. Stengel-Eskin et al. (2025) showed that training against one direction alone harms the other. Tan et al. (2025) named the two failures gullibility and stubbornness and found that resist-only preference training nearly eliminates receptiveness to correction. Ma et al. (2026) showed the same trade-off on Qwen3-8B, the model used here, with anti-pressure training cutting rational updating by around fifty points. Most benchmarks still score one direction, including the newest math sycophancy work (Cheng et al. 2026). What this project adds is narrower than the two-sided measurement. It is the comparison itself. Two training arms with identical prompts that differ only in the reply, a token-matched control, and the result that a verification step in the reply raises updating above the base model while an outcome-only reply lowers it. Zhang et al. (2025) fine-tuned on replies whose reasoning rejects misinformation and report preserved responsiveness, without an answer-only arm or a length control. To my knowledge the matched comparison has not been published.
+
+A model that stops updating on evidence in dialogue is not the failure the corrigibility literature studies, which concerns resisting modification by a principal (Soares et al. 2015). It is the nearer of the two failures to it, and sycophancy itself has been linked to alignment faking (Baek et al. 2026), so a fix that trades caving for stubbornness is a step in the wrong direction on that axis. I treat this as an analogy, not a result.
 
 **What should change if the finding holds.** Two practices, both cheap enough to adopt in any fine-tune. Every sycophancy evaluation should include an evidence arm, so that a reduction in caving cannot be reported without its cost to revision. Training data meant to reduce caving should show the model checking before it answers, rather than showing the answer alone. Neither requires new infrastructure. The second is a claim about the shape of training replies and not their number, since the token-matched control in run 4 reproduced the stubbornness.
 
 ## Related work
 
-Sharma et al. (2024) characterized sycophancy across deployed assistants and traced part of it to preference data. Wei et al. (2023) reduced agreement with incorrect user claims using simple synthetic data and measured that agreement. Perez et al. (2022) introduced model-written evaluations, including sycophancy tests, that measure agreement alone. None of these report how the intervention affects revision when the user is right. Greenblatt et al. (2024) documented a model reasoning about resisting modification to its values, which is the direction a stubborn fine-tune moves in. MathDial (Macina et al. 2023) supplied the tutoring dialogues for runs 1 and 2, and GSM8K (Cobbe et al. 2021) and MMLU-Redux (Gema et al. 2024) supplied the evaluation problems.
+**Sycophancy and its source.** Sharma et al. (2024) found that human preference data favors responses matching the user's views and that preference models sometimes prefer sycophantic responses over correct ones. Perez et al. (2022) introduced model-written sycophancy evaluations on opinion questions. Laban et al. (2023) showed that a content-free "are you sure?" flips answers in both directions.
+
+**Both directions.** Fanous et al. (2025) separated regressive from progressive answer changes on the same items. Stengel-Eskin et al. (2025), Tan et al. (2025), Ma et al. (2026), and Yang and Yeung (2026) each score resistance to unsupported pressure and updating on valid evidence together, and each finds that training for one alone damages the other. This project's evaluation belongs to that line and adds nothing to it as a measurement.
+
+**Training targets.** Wei et al. (2023) reduced agreement with wrong claims by fine-tuning on bare-label targets and state that they did not test agreement with correct statements. Zhang et al. (2025) fine-tuned on adversarial dialogues with reasoning in the target and report preserved responsiveness without a comparison arm. Pfau et al. (2024) showed that filler tokens can substitute for reasoning on some tasks, which is why the token-matched control in run 4 was necessary. Lightman et al. (2023) found that supervising the process rather than the outcome changes what a reward model learns, an analogy rather than a precedent, since the present work supervises replies.
+
+**What narrow fine-tuning transfers.** Betley et al. (2025) showed that fine-tuning on insecure code shifts broad dispositions. Follow-ups find that the shift requires a trait that is consistent and salient in assistant-formatted targets (Vetter et al. 2026; Askin et al. 2026). Wang et al. (2026) report that sycophancy fine-tuning itself induces broad misalignment. Run 1's result, style without disposition, fits the first two and is a caution for the outcome-only arm under the third.
+
+**Data.** MathDial (Macina et al. 2023) supplied the tutoring dialogues. GSM8K (Cobbe et al. 2021) and MMLU-Redux (Gema et al. 2024) supplied the evaluation problems. Greenblatt et al. (2024) is the alignment-faking result referred to above.
 
 ## Terms
 
@@ -87,7 +97,7 @@ Both fine-tunes reduced the cave rate to zero on math, including under the autho
 
 ## Findings
 
-1. Fine-tuning on MathDial dialogues transferred the tutor's speech style and turn-taking. The cave rate did not improve on pressure phrased as assertion and worsened on pressure phrased as instruction. Two runs and a full read of all 450 pressure replies support this.
+1. Fine-tuning on MathDial dialogues transferred the tutor's speech style and turn-taking. The cave rate did not improve on pressure phrased as assertion and worsened on pressure phrased as instruction. Two runs and a full read of all 450 pressure replies support this. The reading consistent with the emergent-misalignment follow-ups is that narrow fine-tuning transfers whatever trait is consistent and salient in the targets, and human tutor turns supply register rather than resistance.
 2. On identical training prompts with matched token counts, replies containing a verification step produced selective resistance and replies containing only the outcome produced stubbornness. The scope is one model, one seed, templated replies, and 891 training examples.
 3. Selective resistance generalized across pressure wordings and pressure kinds within arithmetic and did not generalize to multiple-choice questions, where the verification step has no application. The outcome-only fine-tune's low far cave rate coincided with a low rate of revising toward correct answers.
 
@@ -97,6 +107,7 @@ Both fine-tunes reduced the cave rate to zero on math, including under the autho
 - The far set has no evidence arm. The reversed far set measures response to a correct assertion without evidence, so it cannot separate revision from compliance.
 - Training prompts used the evaluation's system prompt and answer format. Pressure and evidence wordings were held out.
 - The capability check is 200 items, a regression check rather than a capability claim.
+- The outcome-only arm was checked for stubbornness and capability only. Wang et al. (2026) report that sycophancy fine-tuning can induce broad misalignment, and no broad behavioral check was run here in either direction.
 
 ## Method notes
 
@@ -107,3 +118,29 @@ Qwen3-8B on Tinker, LoRA rank 32, learning rate 4.7e-4 with linear decay, thinki
 A fifth fine-tune with a verification step that names its own scope ("this claim concerns a definition, so I re-read the question and test each option against it") or with training exchanges in a second domain would test whether selective resistance can be given a method that applies outside arithmetic. After that, an evidence arm at far distance, additional seeds, and non-templated replies.
 
 *Code, configs, data manifests, raw model outputs and per-run analyses: https://github.com/FedExodus/selective-resistance. Training data derived from MathDial is not redistributed (CC BY-SA 4.0); the download and preprocessing scripts rebuild it at pinned revisions.*
+
+## References
+
+- Askin et al. (2026). arXiv:2605.12798.
+- Baek et al. (2026). Sycophancy Towards Researchers Drives Performative Misalignment. arXiv:2606.08629.
+- Betley et al. (2025). Emergent Misalignment. ICML 2025. arXiv:2502.17424.
+- Cheng et al. (2026). Euston. arXiv:2609.23205.
+- Cobbe et al. (2021). Training Verifiers to Solve Math Word Problems (GSM8K). arXiv:2110.14168.
+- Fanous et al. (2025). SycEval. AIES 2025. arXiv:2502.08177.
+- Gema et al. (2024). Are We Done with MMLU? (MMLU-Redux). arXiv:2406.04127.
+- Greenblatt et al. (2024). Alignment Faking in Large Language Models. arXiv:2412.14093.
+- Laban et al. (2023). Are You Sure? The FlipFlop Experiment. arXiv:2311.08596.
+- Lightman et al. (2023). Let's Verify Step by Step. arXiv:2305.20050.
+- Ma et al. (2026). Sycophancy Suppression Can Impair Rational Updating. EMNLP 2026 Findings. arXiv:2608.26511.
+- Macina et al. (2023). MathDial. EMNLP 2023 Findings. arXiv:2305.14536.
+- Perez et al. (2022). Discovering Language Model Behaviors with Model-Written Evaluations. Findings of ACL 2023. arXiv:2212.09251.
+- Pfau, Merrill, Bowman (2024). Let's Think Dot by Dot. arXiv:2404.15758.
+- Sharma et al. (2024). Towards Understanding Sycophancy in Language Models. ICLR 2024. arXiv:2310.13548.
+- Soares, Fallenstein, Yudkowsky, Armstrong (2015). Corrigibility. AAAI 2015 Workshop on AI and Ethics.
+- Stengel-Eskin, Hase, Bansal (2025). Teaching Models to Balance Resisting and Accepting Persuasion. NAACL 2025. arXiv:2410.14596.
+- Tan et al. (2025). Persuasion Dynamics in LLMs (DuET-PD). EMNLP 2025. arXiv:2508.17450.
+- Vetter et al. (2026). Data Attribution of Emergent Misalignment with Persona Features. arXiv:2608.11025.
+- Wang et al. (2026). Emergent Misalignment Can Be Induced by Sycophancy. arXiv:2606.09068.
+- Wei et al. (2023). Simple Synthetic Data Reduces Sycophancy in Large Language Models. arXiv:2308.03958.
+- Yang and Yeung (2026). Resist, Update, Reject. arXiv:2609.22359.
+- Zhang et al. (2025). Sycophancy under Pressure (Pressure-Tune). arXiv:2508.13743.
