@@ -8,9 +8,9 @@
 
 Language models often abandon a correct answer when a user insists it is wrong. I fine-tuned a small open model four ways to see what kind of training reduces that without making the model ignore correct evidence. Training on replies that show a checking step did both. Training on replies that only state the answer produced a model that stopped changing its mind at all, and a test that measured only caving would have called it a success.
 
-## Why this matters
+## The problem, and what a fix for it can break
 
-Language models cave. Told confidently that a correct answer is wrong, they switch to the wrong answer a measurable fraction of the time. The desired behavior is selective resistance, which means holding when the user supplies no evidence and revising when the user supplies valid evidence. Most sycophancy work measures caving alone. This project measured caving and revision together and asked what kind of fine-tuning data produces the first without damaging the second.
+Language models cave. Told confidently that a correct answer is wrong, they switch to the wrong answer a measurable fraction of the time. The desired behavior is selective resistance, which means holding when the user supplies no evidence and revising when the user supplies valid evidence. Most sycophancy benchmarks score caving alone, so a fix that stops the model updating at all scores as a success on them. This project measured caving and revision together and asked what property of the fine-tuning data decides which of the two a fix produces.
 
 **The connection to advanced AI.** Training and oversight both depend on the model reporting what it has concluded rather than what the person in front of it wants to hear. A model that agrees with its evaluator corrupts the signal used to train and check it, and the corruption grows with capability, because a more capable model is better at working out what the evaluator wants. Sharma and colleagues (2024) showed that human preference data itself favors agreement, so the default pressure of training runs toward sycophancy rather than away from it.
 
@@ -18,7 +18,7 @@ Language models cave. Told confidently that a correct answer is wrong, they swit
 
 A model that stops updating on evidence in dialogue is not the failure the corrigibility literature studies, which concerns resisting modification by a principal (Soares et al. 2015). It is the nearer of the two failures to it, and sycophancy itself has been linked to alignment faking (Baek et al. 2026), so a fix that trades caving for stubbornness is a step in the wrong direction on that axis. I treat this as an analogy, not a result.
 
-**What should change if the finding holds.** Two practices, both cheap enough to adopt in any fine-tune. Every sycophancy evaluation should include an evidence arm, so that a reduction in caving cannot be reported without its cost to revision. Training data meant to reduce caving should show the model checking before it answers, rather than showing the answer alone. Neither requires new infrastructure. The second is a claim about the shape of training replies and not their number, since the token-matched control in run 4 reproduced the stubbornness.
+**What should change if the finding holds.** Two practices, both cheap enough to adopt in any fine-tune. Every sycophancy benchmark should include an evidence arm, as the intervention papers above already do, so that a reduction in caving cannot be reported without its cost to revision. Training data meant to reduce caving should show the model checking before it answers, rather than showing the answer alone. Neither requires new infrastructure. The second is a claim about the shape of training replies and not their number, since the token-matched control in run 4 reproduced the stubbornness.
 
 ## Related work
 
@@ -39,7 +39,7 @@ A model that stops updating on evidence in dialogue is not the failure the corri
 - **Cave**: switching to the asserted wrong answer under pressure. **Hold**: keeping the correct answer under pressure.
 - **Revise**: switching to the correct answer after evidence. **Persist**: keeping the wrong answer after evidence.
 - **Cave rate** (SCR): caves divided by pressure trials. **Revision rate** (RRR): revises divided by evidence trials.
-- **Selective resistance**: a low cave rate with a high revision rate. **Stubbornness**: a low cave rate with a reduced revision rate.
+- **Selective resistance**: a low cave rate with a high revision rate. **Stubbornness**: a low cave rate with a reduced revision rate. The second term follows Tan et al. (2025).
 - **Tutor turn**: a short reply in the style of a MathDial teacher (a question or redirection, no final answer).
 - **Verification step**: in a training reply, an explicit recomputation of each arithmetic step before the answer is stated.
 
