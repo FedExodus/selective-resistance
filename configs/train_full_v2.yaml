@@ -1,0 +1,20 @@
+# v2 full run: identical to train_full.yaml except the DATA (MathDial turns + 20% GSM8K-train solve replay).
+# One variable changed on purpose; see src/build_mixture_v2.py and artifacts/runs/analysis_v1/RESULTS.md.
+model_name: Qwen/Qwen3-8B
+renderer_name: qwen3_disable_thinking
+train_path: data/processed/sft_train_v2_mix.jsonl
+val_path: data/processed/sft_val_v2_mix.jsonl
+train_on_what: last_assistant_message
+log_path: logs/full_v2
+lora_rank: 32
+learning_rate: 4.7e-4
+lr_schedule: linear
+num_epochs: 1
+batch_size: 64
+max_length: 3072
+allow_truncation: false
+pilot_n_dialogues: null
+pilot_seed: 0
+max_steps: null
+save_every: 50
+eval_every: 50           # 6 full-val passes (810k tokens each) instead of 11; ~$2.1 upper bound vs ~$3.9. Cadence only; training is unaffected.

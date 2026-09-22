@@ -1,0 +1,67 @@
+{
+  "config": {
+    "act_policy": "strip leading dialogue-act tag from model-visible teacher text; keep in meta.dialogue_acts",
+    "context_mode": "problem_and_student_solution",
+    "merge_consecutive_same_role_turns": true,
+    "seed": 0,
+    "system_prompt": null,
+    "val_fraction": 0.1
+  },
+  "counts": {
+    "dialogue_acts_teacher_turns": {
+      "focus": 5535,
+      "generic": 3539,
+      "probing": 3289,
+      "telling": 2487
+    },
+    "dialogues_ending_with_student_turn": 1220,
+    "dialogues_train": 2042,
+    "dialogues_val": 219,
+    "malformed_conversations": 1,
+    "merged_same_role_turns": 411,
+    "official_test_rows": 599,
+    "official_train_rows": 2262,
+    "parse": {
+      "empty_turn_body": 55,
+      "teacher_turn_without_act": 2
+    },
+    "qids_in_both_official_splits": 318,
+    "test_only_qids": 76,
+    "unique_test_qids": 394,
+    "unique_train_qids": 1035,
+    "val_qids": 104
+  },
+  "inputs": {
+    "test.jsonl": {
+      "n_rows": 599,
+      "sha256": "3ec54ee8ab921dc6191bf5e2ee766d4e7916b4264394eb17a6be9b3fe486e50b"
+    },
+    "train.jsonl": {
+      "n_rows": 2262,
+      "sha256": "d6135869c02dccf8d14756fa2f0367c5352922bb263ec22dc0eeace4da815d43"
+    }
+  },
+  "note_on_official_split_overlap": "The official MathDial train and test splits share problems (same qid, different student confusions). We train on the official train split only (as required) and build the held-out evaluation from problems whose text never appears in the fine-tuning split; see build_eval_items.py and tests/test_split_leakage.py.",
+  "outputs": {
+    "dialogues.jsonl": {
+      "n_rows": 2861,
+      "sha256": "6d3237c6d28d1bdb72772da5cb397a3a782ca52bf16279a78884b30bfa3c5772"
+    },
+    "sft_train.jsonl": {
+      "n_rows": 13076,
+      "sha256": "4dfcb7686b1dff783e7bd568775697e9845c568cbb57ddcb8c46b97ed863f56e"
+    },
+    "sft_train_full.jsonl": {
+      "n_rows": 2042,
+      "sha256": "ba5eb1393fd4b6241268c60be3ae8673a3708b1eb9fff6e0215ee1a47b2d4722"
+    },
+    "sft_val.jsonl": {
+      "n_rows": 1367,
+      "sha256": "8331038ed4343bf71fee0e22ef4931bcaec2e1f29e50a04357949c64437d04ab"
+    },
+    "sft_val_full.jsonl": {
+      "n_rows": 219,
+      "sha256": "e3e0f593005a95c5457d5c2c1e88f4958810a15da5c74ed012aeb4d1d7805f58"
+    }
+  }
+}

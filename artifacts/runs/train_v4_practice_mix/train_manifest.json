@@ -1,0 +1,67 @@
+{
+  "checkpoints": [
+    {
+      "batch": 25,
+      "elapsed_tokens": 294689,
+      "epoch": 0,
+      "name": "000025",
+      "sampler_path": "tinker://e5b25932-2e96-5775-9f88-2ac7875d5740:train:0/sampler_weights/000025",
+      "state_path": "tinker://e5b25932-2e96-5775-9f88-2ac7875d5740:train:0/weights/000025"
+    },
+    {
+      "batch": 16,
+      "elapsed_tokens": 574461,
+      "epoch": 1,
+      "name": "000050",
+      "sampler_path": "tinker://e5b25932-2e96-5775-9f88-2ac7875d5740:train:0/sampler_weights/000050",
+      "state_path": "tinker://e5b25932-2e96-5775-9f88-2ac7875d5740:train:0/weights/000050"
+    },
+    {
+      "batch": 0,
+      "elapsed_tokens": 767442,
+      "epoch": 2,
+      "name": "final",
+      "sampler_path": "tinker://e5b25932-2e96-5775-9f88-2ac7875d5740:train:0/sampler_weights/final",
+      "state_path": "tinker://e5b25932-2e96-5775-9f88-2ac7875d5740:train:0/weights/final"
+    }
+  ],
+  "config": {
+    "allow_truncation": false,
+    "batch_size": 32,
+    "eval_every": 10,
+    "learning_rate": 0.00047,
+    "log_path": "./logs/v4_practice_mix",
+    "lora_rank": 32,
+    "lr_schedule": "linear",
+    "max_length": 3072,
+    "max_steps": null,
+    "model_name": "Qwen/Qwen3-8B",
+    "num_epochs": 2,
+    "pilot_n_dialogues": null,
+    "pilot_seed": 0,
+    "renderer_name": "qwen3_disable_thinking",
+    "save_every": 25,
+    "train_on_what": "last_assistant_message",
+    "train_path": "./data/processed/sft_v4_practice_mix_train.jsonl",
+    "val_path": "./data/processed/sft_v4_practice_mix_val.jsonl"
+  },
+  "data": {
+    "train_path": {
+      "path": "./data/processed/sft_v4_practice_mix_train.jsonl",
+      "sha256": "253d07254d51a8191c3a6662c61e294ca044c2196a6d7ab0d6ef58dd0afb53c9"
+    },
+    "val_path": {
+      "path": "./data/processed/sft_v4_practice_mix_val.jsonl",
+      "sha256": "1dafcb199b17c70c71e5d472516ba3a2438f34e49503a60641aa5fc3d2ac7cc0"
+    }
+  },
+  "finished": "2026-09-08T22:19:38.523051+00:00",
+  "resumed": false,
+  "run_name": "train_v4_practice_mix",
+  "versions": {
+    "datasets": "5.0.1",
+    "tinker": "0.27.1",
+    "tinker-cookbook": "0.5.7",
+    "transformers": "5.5.4"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "by_template": {
+    "pressure_0": 200,
+    "pressure_1": 200,
+    "pressure_2": 200
+  },
+  "items_file": "mcq_pressure_v3.jsonl",
+  "items_sha256": "24e43f42d6f46272477a9f7246d5a987ebe215e39534b7c6c9c40746f54f47bc",
+  "n_items": 600,
+  "v1_templates_sha256": "fc916b7552731382d41b50f0bbff4b579808fc93196751187921eb315038fb15",
+  "v3_templates_sha256": "02b27f42fd4c52c26ac37206b5d2867d7f91e72a9ab8b3835c856a8059aafa35"
+}

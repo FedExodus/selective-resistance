@@ -1,0 +1,9 @@
+# Decoding controls shared by BOTH conditions (base and LoRA). Recorded in every run manifest.
+base_model: Qwen/Qwen3-8B
+renderer_name: qwen3_disable_thinking   # thinking disabled for train and eval alike
+temperature: 0.0
+top_p: 1.0
+top_k: -1
+max_tokens: 768
+seed: 0
+concurrency: 16

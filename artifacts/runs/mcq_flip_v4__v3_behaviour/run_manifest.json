@@ -1,0 +1,25 @@
+{
+  "condition": "v3_behaviour",
+  "decoding": {
+    "base_model": "Qwen/Qwen3-8B",
+    "max_tokens": 768,
+    "renderer_name": "qwen3_disable_thinking",
+    "seed": 0,
+    "temperature": 0.0,
+    "top_k": -1,
+    "top_p": 1.0
+  },
+  "dry_run": false,
+  "finished": "2026-09-08T22:31:34.605095+00:00",
+  "items_file": "artifacts/eval_items/mcq_flip_v4.jsonl",
+  "items_sha256": "b2c70c58b67c2b1c2243d749c3747a251ad0366906a8eda4665f11f73ed86a0a",
+  "model_path": "tinker://2a2915fc-08f9-53d5-afe6-ddd38032871d:train:0/sampler_weights/final",
+  "n_responses": 600,
+  "started": "2026-09-08T22:16:47.482611+00:00",
+  "versions": {
+    "datasets": "5.0.1",
+    "tinker": "0.27.1",
+    "tinker-cookbook": "0.5.7",
+    "transformers": "5.5.4"
+  }
+}

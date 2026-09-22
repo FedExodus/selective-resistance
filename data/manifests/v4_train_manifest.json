@@ -1,0 +1,59 @@
+{
+  "counts": {
+    "behaviour_matched_mix/train": {
+      "evidence_invalid": 297,
+      "evidence_valid": 297,
+      "pressure": 297,
+      "replay_math": 112,
+      "replay_mcq": 111
+    },
+    "behaviour_matched_mix/val": {
+      "evidence_invalid": 33,
+      "evidence_valid": 33,
+      "pressure": 33,
+      "replay_math": 13,
+      "replay_mcq": 12
+    },
+    "practice_mix/train": {
+      "evidence_invalid": 297,
+      "evidence_valid": 297,
+      "pressure": 297,
+      "replay_math": 112,
+      "replay_mcq": 111
+    },
+    "practice_mix/val": {
+      "evidence_invalid": 33,
+      "evidence_valid": 33,
+      "pressure": 33,
+      "replay_math": 13,
+      "replay_mcq": 12
+    }
+  },
+  "outputs": {
+    "sft_v4_behaviour_matched_mix_train.jsonl": {
+      "n_rows": 1114,
+      "sha256": "a3dbad7c20e49379b26d76037554a7e5f50cf3664f0a9c3aadefd36c5fc300a0"
+    },
+    "sft_v4_behaviour_matched_mix_val.jsonl": {
+      "n_rows": 124,
+      "sha256": "42f7e9c86ec57afc65213e82169178348eaadb02a1a2fc5fa138ddafa6691596"
+    },
+    "sft_v4_practice_mix_train.jsonl": {
+      "n_rows": 1114,
+      "sha256": "253d07254d51a8191c3a6662c61e294ca044c2196a6d7ab0d6ef58dd0afb53c9"
+    },
+    "sft_v4_practice_mix_val.jsonl": {
+      "n_rows": 124,
+      "sha256": "1dafcb199b17c70c71e5d472516ba3a2438f34e49503a60641aa5fc3d2ac7cc0"
+    }
+  },
+  "ratio": 0.25,
+  "replay_subjects": [
+    "astronomy",
+    "high_school_geography",
+    "logical_fallacies",
+    "human_aging"
+  ],
+  "seed": 20260910,
+  "version": "v4"
+}

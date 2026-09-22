@@ -1,0 +1,66 @@
+{
+  "checkpoints": [
+    {
+      "batch": 10,
+      "elapsed_tokens": 171590,
+      "epoch": 0,
+      "name": "000010",
+      "sampler_path": "tinker://38a03a4e-06b8-5e24-af53-0f2d04a2687e:train:0/sampler_weights/000010",
+      "state_path": "tinker://38a03a4e-06b8-5e24-af53-0f2d04a2687e:train:0/weights/000010"
+    },
+    {
+      "batch": 20,
+      "elapsed_tokens": 336728,
+      "epoch": 0,
+      "name": "000020",
+      "sampler_path": "tinker://38a03a4e-06b8-5e24-af53-0f2d04a2687e:train:0/sampler_weights/000020",
+      "state_path": "tinker://38a03a4e-06b8-5e24-af53-0f2d04a2687e:train:0/weights/000020"
+    },
+    {
+      "batch": 0,
+      "elapsed_tokens": 450346,
+      "epoch": 1,
+      "name": "final",
+      "sampler_path": "tinker://38a03a4e-06b8-5e24-af53-0f2d04a2687e:train:0/sampler_weights/final",
+      "state_path": "tinker://38a03a4e-06b8-5e24-af53-0f2d04a2687e:train:0/weights/final"
+    }
+  ],
+  "config": {
+    "allow_truncation": false,
+    "batch_size": 32,
+    "eval_every": 5,
+    "learning_rate": 0.00047,
+    "log_path": "./logs/pilot",
+    "lora_rank": 32,
+    "lr_schedule": "linear",
+    "max_length": 3072,
+    "max_steps": 30,
+    "model_name": "Qwen/Qwen3-8B",
+    "num_epochs": 1,
+    "pilot_n_dialogues": 150,
+    "pilot_seed": 0,
+    "renderer_name": "qwen3_disable_thinking",
+    "save_every": 10,
+    "train_on_what": "last_assistant_message",
+    "train_path": "./data/processed/sft_train.jsonl",
+    "val_path": "./data/processed/sft_val.jsonl"
+  },
+  "data": {
+    "train_path": {
+      "path": "./data/processed/sft_train.jsonl",
+      "sha256": "4dfcb7686b1dff783e7bd568775697e9845c568cbb57ddcb8c46b97ed863f56e"
+    },
+    "val_path": {
+      "path": "./data/processed/sft_val.jsonl",
+      "sha256": "8331038ed4343bf71fee0e22ef4931bcaec2e1f29e50a04357949c64437d04ab"
+    }
+  },
+  "finished": "2026-09-08T15:26:08.031976+00:00",
+  "run_name": "train_pilot",
+  "versions": {
+    "datasets": "5.0.1",
+    "tinker": "0.27.1",
+    "tinker-cookbook": "0.5.7",
+    "transformers": "5.5.4"
+  }
+}

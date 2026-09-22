@@ -1,0 +1,67 @@
+{
+  "checkpoints": [
+    {
+      "batch": 25,
+      "elapsed_tokens": 284321,
+      "epoch": 0,
+      "name": "000025",
+      "sampler_path": "tinker://9cd56ffa-ff88-5e44-b325-1a87d247d9d0:train:0/sampler_weights/000025",
+      "state_path": "tinker://9cd56ffa-ff88-5e44-b325-1a87d247d9d0:train:0/weights/000025"
+    },
+    {
+      "batch": 16,
+      "elapsed_tokens": 561713,
+      "epoch": 1,
+      "name": "000050",
+      "sampler_path": "tinker://9cd56ffa-ff88-5e44-b325-1a87d247d9d0:train:0/sampler_weights/000050",
+      "state_path": "tinker://9cd56ffa-ff88-5e44-b325-1a87d247d9d0:train:0/weights/000050"
+    },
+    {
+      "batch": 0,
+      "elapsed_tokens": 748836,
+      "epoch": 2,
+      "name": "final",
+      "sampler_path": "tinker://9cd56ffa-ff88-5e44-b325-1a87d247d9d0:train:0/sampler_weights/final",
+      "state_path": "tinker://9cd56ffa-ff88-5e44-b325-1a87d247d9d0:train:0/weights/final"
+    }
+  ],
+  "config": {
+    "allow_truncation": false,
+    "batch_size": 32,
+    "eval_every": 10,
+    "learning_rate": 0.00047,
+    "log_path": "./logs/v4_behaviour_matched_mix",
+    "lora_rank": 32,
+    "lr_schedule": "linear",
+    "max_length": 3072,
+    "max_steps": null,
+    "model_name": "Qwen/Qwen3-8B",
+    "num_epochs": 2,
+    "pilot_n_dialogues": null,
+    "pilot_seed": 0,
+    "renderer_name": "qwen3_disable_thinking",
+    "save_every": 25,
+    "train_on_what": "last_assistant_message",
+    "train_path": "./data/processed/sft_v4_behaviour_matched_mix_train.jsonl",
+    "val_path": "./data/processed/sft_v4_behaviour_matched_mix_val.jsonl"
+  },
+  "data": {
+    "train_path": {
+      "path": "./data/processed/sft_v4_behaviour_matched_mix_train.jsonl",
+      "sha256": "a3dbad7c20e49379b26d76037554a7e5f50cf3664f0a9c3aadefd36c5fc300a0"
+    },
+    "val_path": {
+      "path": "./data/processed/sft_v4_behaviour_matched_mix_val.jsonl",
+      "sha256": "42f7e9c86ec57afc65213e82169178348eaadb02a1a2fc5fa138ddafa6691596"
+    }
+  },
+  "finished": "2026-09-08T22:19:31.753197+00:00",
+  "resumed": false,
+  "run_name": "train_v4_behaviour_matched_mix",
+  "versions": {
+    "datasets": "5.0.1",
+    "tinker": "0.27.1",
+    "tinker-cookbook": "0.5.7",
+    "transformers": "5.5.4"
+  }
+}

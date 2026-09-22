@@ -1,0 +1,58 @@
+{
+  "evaluation": {
+    "capability_items_v1": {
+      "assumed_output_tokens": 350,
+      "items": 200,
+      "max_tokens": 768,
+      "per_condition_usd_typical": 0.049,
+      "per_condition_usd_upper_bound": 0.099,
+      "prompt_tokens": 34160
+    },
+    "eval_items_v1": {
+      "assumed_output_tokens": 350,
+      "items": 900,
+      "max_tokens": 768,
+      "per_condition_usd_typical": 0.242,
+      "per_condition_usd_upper_bound": 0.468,
+      "prompt_tokens": 271097
+    }
+  },
+  "prices_usd_per_M": {
+    "cached": 0.039,
+    "checked": "2026-09-08",
+    "prefill": 0.195,
+    "sample": 0.6,
+    "train": 0.44
+  },
+  "totals_usd": {
+    "evaluation_two_conditions_typical": 0.582,
+    "evaluation_two_conditions_upper_bound": 1.134,
+    "full_training": 3.083,
+    "pilot_training": 0.205,
+    "study_typical": 3.87
+  },
+  "training": {
+    "train_full": {
+      "batches_per_epoch": 204,
+      "est_train_cost_usd": 3.083,
+      "max_example_tokens": 2495,
+      "price_train_per_M": 0.44,
+      "tokens_per_epoch": 7005777,
+      "total_steps": 204,
+      "train_dialogues": 2042,
+      "train_examples": 13076,
+      "train_tokens_processed": 7005777
+    },
+    "train_pilot": {
+      "batches_per_epoch": 28,
+      "est_train_cost_usd": 0.205,
+      "max_example_tokens": 1715,
+      "price_train_per_M": 0.44,
+      "tokens_per_epoch": 465120,
+      "total_steps": 28,
+      "train_dialogues": 150,
+      "train_examples": 924,
+      "train_tokens_processed": 465120
+    }
+  }
+}

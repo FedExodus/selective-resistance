@@ -1,0 +1,91 @@
+{
+  "checkpoints": [
+    {
+      "batch": 50,
+      "elapsed_tokens": 1562684,
+      "epoch": 0,
+      "name": "000050",
+      "sampler_path": "tinker://e1af09cd-f35e-587d-a1f2-02ee2c85c8f0:train:0/sampler_weights/000050",
+      "state_path": "tinker://e1af09cd-f35e-587d-a1f2-02ee2c85c8f0:train:0/weights/000050"
+    },
+    {
+      "batch": 100,
+      "elapsed_tokens": 3111050,
+      "epoch": 0,
+      "name": "000100",
+      "sampler_path": "tinker://e1af09cd-f35e-587d-a1f2-02ee2c85c8f0:train:0/sampler_weights/000100",
+      "state_path": "tinker://e1af09cd-f35e-587d-a1f2-02ee2c85c8f0:train:0/weights/000100"
+    },
+    {
+      "batch": 150,
+      "elapsed_tokens": 4593786,
+      "epoch": 0,
+      "name": "000150",
+      "sampler_path": "tinker://e1af09cd-f35e-587d-a1f2-02ee2c85c8f0:train:0/sampler_weights/000150",
+      "state_path": "tinker://e1af09cd-f35e-587d-a1f2-02ee2c85c8f0:train:0/weights/000150"
+    },
+    {
+      "batch": 200,
+      "elapsed_tokens": 6091239,
+      "epoch": 0,
+      "name": "000200",
+      "sampler_path": "tinker://e1af09cd-f35e-587d-a1f2-02ee2c85c8f0:train:0/sampler_weights/000200",
+      "state_path": "tinker://e1af09cd-f35e-587d-a1f2-02ee2c85c8f0:train:0/weights/000200"
+    },
+    {
+      "batch": 250,
+      "elapsed_tokens": 7591929,
+      "epoch": 0,
+      "name": "000250",
+      "sampler_path": "tinker://e1af09cd-f35e-587d-a1f2-02ee2c85c8f0:train:0/sampler_weights/000250",
+      "state_path": "tinker://e1af09cd-f35e-587d-a1f2-02ee2c85c8f0:train:0/weights/000250"
+    },
+    {
+      "batch": 0,
+      "elapsed_tokens": 7725652,
+      "epoch": 1,
+      "name": "final",
+      "sampler_path": "tinker://e1af09cd-f35e-587d-a1f2-02ee2c85c8f0:train:0/sampler_weights/final",
+      "state_path": "tinker://e1af09cd-f35e-587d-a1f2-02ee2c85c8f0:train:0/weights/final"
+    }
+  ],
+  "config": {
+    "allow_truncation": false,
+    "batch_size": 64,
+    "eval_every": 50,
+    "learning_rate": 0.00047,
+    "log_path": "./logs/full_v2",
+    "lora_rank": 32,
+    "lr_schedule": "linear",
+    "max_length": 3072,
+    "max_steps": null,
+    "model_name": "Qwen/Qwen3-8B",
+    "num_epochs": 1,
+    "pilot_n_dialogues": null,
+    "pilot_seed": 0,
+    "renderer_name": "qwen3_disable_thinking",
+    "save_every": 50,
+    "train_on_what": "last_assistant_message",
+    "train_path": "./data/processed/sft_train_v2_mix.jsonl",
+    "val_path": "./data/processed/sft_val_v2_mix.jsonl"
+  },
+  "data": {
+    "train_path": {
+      "path": "./data/processed/sft_train_v2_mix.jsonl",
+      "sha256": "4c95bb1f5530432e83bceeaf6f205a1a22e23a105a202b84bbefa49f50648e7d"
+    },
+    "val_path": {
+      "path": "./data/processed/sft_val_v2_mix.jsonl",
+      "sha256": "a8620ad9739fa385b87533a0afad8f96d8e9b7986b17ef21eb9da7ba28a8ed3c"
+    }
+  },
+  "finished": "2026-09-08T19:27:03.091799+00:00",
+  "resumed": false,
+  "run_name": "train_full_v2",
+  "versions": {
+    "datasets": "5.0.1",
+    "tinker": "0.27.1",
+    "tinker-cookbook": "0.5.7",
+    "transformers": "5.5.4"
+  }
+}

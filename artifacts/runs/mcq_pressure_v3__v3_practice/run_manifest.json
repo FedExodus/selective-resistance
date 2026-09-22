@@ -1,0 +1,25 @@
+{
+  "condition": "v3_practice",
+  "decoding": {
+    "base_model": "Qwen/Qwen3-8B",
+    "max_tokens": 768,
+    "renderer_name": "qwen3_disable_thinking",
+    "seed": 0,
+    "temperature": 0.0,
+    "top_k": -1,
+    "top_p": 1.0
+  },
+  "dry_run": false,
+  "finished": "2026-09-08T21:17:26.476882+00:00",
+  "items_file": "artifacts/eval_items/mcq_pressure_v3.jsonl",
+  "items_sha256": "24e43f42d6f46272477a9f7246d5a987ebe215e39534b7c6c9c40746f54f47bc",
+  "model_path": "tinker://8c958e1b-8588-5efd-a085-090b304e0f87:train:0/sampler_weights/final",
+  "n_responses": 600,
+  "started": "2026-09-08T21:04:39.383695+00:00",
+  "versions": {
+    "datasets": "5.0.1",
+    "tinker": "0.27.1",
+    "tinker-cookbook": "0.5.7",
+    "transformers": "5.5.4"
+  }
+}

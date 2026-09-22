@@ -1,0 +1,53 @@
+{
+  "audit": {
+    "plan": {
+      "batches_per_epoch": 28,
+      "est_train_cost_usd": 0.205,
+      "price_train_per_M": 0.44,
+      "total_steps": 28,
+      "train_tokens_processed": 465120
+    },
+    "train": {
+      "examples_over_max_length": 0,
+      "loss_tokens_total": 19115,
+      "n_dialogues": 150,
+      "n_examples": 924,
+      "tokens_max": 1715,
+      "tokens_total": 465120
+    },
+    "val": {
+      "examples_over_max_length": 0,
+      "loss_tokens_total": 1861,
+      "n_dialogues": 15,
+      "n_examples": 99,
+      "tokens_max": 1042,
+      "tokens_total": 48110
+    }
+  },
+  "config": {
+    "allow_truncation": false,
+    "batch_size": 32,
+    "eval_every": 5,
+    "learning_rate": 0.00047,
+    "log_path": "./logs/pilot",
+    "lora_rank": 32,
+    "lr_schedule": "linear",
+    "max_length": 3072,
+    "max_steps": 30,
+    "model_name": "Qwen/Qwen3-8B",
+    "num_epochs": 1,
+    "pilot_n_dialogues": 150,
+    "pilot_seed": 0,
+    "renderer_name": "qwen3_disable_thinking",
+    "save_every": 10,
+    "train_on_what": "last_assistant_message",
+    "train_path": "./data/processed/sft_train.jsonl",
+    "val_path": "./data/processed/sft_val.jsonl"
+  },
+  "versions": {
+    "datasets": "5.0.1",
+    "tinker": "0.27.1",
+    "tinker-cookbook": "0.5.7",
+    "transformers": "5.5.4"
+  }
+}

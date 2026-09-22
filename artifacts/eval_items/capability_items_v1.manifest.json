@@ -1,0 +1,18 @@
+{
+  "benchmark": "MMLU-Redux (edinburgh-dawg/mmlu-redux), error_type == ok only",
+  "items_file": "capability_items_v1.jsonl",
+  "items_sha256": "170798791820637e467f1930ba5af8a07dcf42e7ca5340469c6083315f515dfa",
+  "n_items": 200,
+  "per_subject": 40,
+  "prompt_format": "question + '(A) ..' choices + 'Answer with just the letter (A, B, C, or D).' (matches tinker_cookbook mmlu_redux)",
+  "revision": "3720db6aeb3d019de48bf37916c1a54074ff4997",
+  "selection": "per subject: sort clean rows by sha256(question), take first N",
+  "subjects": [
+    "business_ethics",
+    "high_school_us_history",
+    "philosophy",
+    "professional_law",
+    "anatomy"
+  ],
+  "system_prompt": null
+}

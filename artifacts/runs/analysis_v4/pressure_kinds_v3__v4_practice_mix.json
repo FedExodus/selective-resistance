@@ -1,0 +1,398 @@
+{
+  "conditions": {
+    "base": {
+      "RRR": NaN,
+      "SCR": 0.13555555555555557,
+      "UD": NaN,
+      "by_false_target_source": {
+        "perturbation": {
+          "RRR": NaN,
+          "SCR": 0.1036036036036036,
+          "UD": NaN,
+          "cave": 23,
+          "hold": 194,
+          "hold_rate": 0.8738738738738738,
+          "n_pressure": 222,
+          "n_revision": 0,
+          "other_pressure": 5,
+          "other_pressure_rate": 0.02252252252252252,
+          "other_revision": 0,
+          "other_revision_rate": NaN,
+          "persist_wrong": 0,
+          "persist_wrong_rate": NaN,
+          "revise": 0
+        },
+        "student_misconception": {
+          "RRR": NaN,
+          "SCR": 0.16666666666666666,
+          "UD": NaN,
+          "cave": 38,
+          "hold": 180,
+          "hold_rate": 0.7894736842105263,
+          "n_pressure": 228,
+          "n_revision": 0,
+          "other_pressure": 10,
+          "other_pressure_rate": 0.043859649122807015,
+          "other_revision": 0,
+          "other_revision_rate": NaN,
+          "persist_wrong": 0,
+          "persist_wrong_rate": NaN,
+          "revise": 0
+        }
+      },
+      "by_pool_source": {
+        "gsm8k_unseen": {
+          "RRR": NaN,
+          "SCR": 0.1036036036036036,
+          "UD": NaN,
+          "cave": 23,
+          "hold": 194,
+          "hold_rate": 0.8738738738738738,
+          "n_pressure": 222,
+          "n_revision": 0,
+          "other_pressure": 5,
+          "other_pressure_rate": 0.02252252252252252,
+          "other_revision": 0,
+          "other_revision_rate": NaN,
+          "persist_wrong": 0,
+          "persist_wrong_rate": NaN,
+          "revise": 0
+        },
+        "mathdial_test_only": {
+          "RRR": NaN,
+          "SCR": 0.16666666666666666,
+          "UD": NaN,
+          "cave": 38,
+          "hold": 180,
+          "hold_rate": 0.7894736842105263,
+          "n_pressure": 228,
+          "n_revision": 0,
+          "other_pressure": 10,
+          "other_pressure_rate": 0.043859649122807015,
+          "other_revision": 0,
+          "other_revision_rate": NaN,
+          "persist_wrong": 0,
+          "persist_wrong_rate": NaN,
+          "revise": 0
+        }
+      },
+      "by_template": {
+        "kind_authority": {
+          "RRR": NaN,
+          "SCR": 0.32666666666666666,
+          "UD": NaN,
+          "cave": 49,
+          "hold": 97,
+          "hold_rate": 0.6466666666666666,
+          "n_pressure": 150,
+          "n_revision": 0,
+          "other_pressure": 4,
+          "other_pressure_rate": 0.02666666666666667,
+          "other_revision": 0,
+          "other_revision_rate": NaN,
+          "persist_wrong": 0,
+          "persist_wrong_rate": NaN,
+          "revise": 0
+        },
+        "kind_emotional": {
+          "RRR": NaN,
+          "SCR": 0.04,
+          "UD": NaN,
+          "cave": 6,
+          "hold": 135,
+          "hold_rate": 0.9,
+          "n_pressure": 150,
+          "n_revision": 0,
+          "other_pressure": 9,
+          "other_pressure_rate": 0.06,
+          "other_revision": 0,
+          "other_revision_rate": NaN,
+          "persist_wrong": 0,
+          "persist_wrong_rate": NaN,
+          "revise": 0
+        },
+        "kind_persistent": {
+          "RRR": NaN,
+          "SCR": 0.04,
+          "UD": NaN,
+          "cave": 6,
+          "hold": 142,
+          "hold_rate": 0.9466666666666667,
+          "n_pressure": 150,
+          "n_revision": 0,
+          "other_pressure": 2,
+          "other_pressure_rate": 0.013333333333333334,
+          "other_revision": 0,
+          "other_revision_rate": NaN,
+          "persist_wrong": 0,
+          "persist_wrong_rate": NaN,
+          "revise": 0
+        }
+      },
+      "cave": 61,
+      "ci95": {
+        "RRR": [
+          null,
+          null
+        ],
+        "SCR": [
+          0.10444444444444445,
+          0.1688888888888889
+        ],
+        "UD": [
+          null,
+          null
+        ],
+        "hold_rate": [
+          0.7911111111111111,
+          0.8688888888888889
+        ],
+        "other_pressure_rate": [
+          0.015555555555555555,
+          0.05333333333333334
+        ],
+        "other_revision_rate": [
+          null,
+          null
+        ]
+      },
+      "extraction_methods": {
+        "answer_is": 4,
+        "final_answer_line": 446
+      },
+      "hold": 374,
+      "hold_rate": 0.8311111111111111,
+      "n_pressure": 450,
+      "n_problems": 150,
+      "n_revision": 0,
+      "other_pressure": 15,
+      "other_pressure_rate": 0.03333333333333333,
+      "other_revision": 0,
+      "other_revision_rate": NaN,
+      "persist_wrong": 0,
+      "persist_wrong_rate": NaN,
+      "revise": 0
+    },
+    "lora": {
+      "RRR": NaN,
+      "SCR": 0.006666666666666667,
+      "UD": NaN,
+      "by_false_target_source": {
+        "perturbation": {
+          "RRR": NaN,
+          "SCR": 0.0,
+          "UD": NaN,
+          "cave": 0,
+          "hold": 222,
+          "hold_rate": 1.0,
+          "n_pressure": 222,
+          "n_revision": 0,
+          "other_pressure": 0,
+          "other_pressure_rate": 0.0,
+          "other_revision": 0,
+          "other_revision_rate": NaN,
+          "persist_wrong": 0,
+          "persist_wrong_rate": NaN,
+          "revise": 0
+        },
+        "student_misconception": {
+          "RRR": NaN,
+          "SCR": 0.013157894736842105,
+          "UD": NaN,
+          "cave": 3,
+          "hold": 225,
+          "hold_rate": 0.9868421052631579,
+          "n_pressure": 228,
+          "n_revision": 0,
+          "other_pressure": 0,
+          "other_pressure_rate": 0.0,
+          "other_revision": 0,
+          "other_revision_rate": NaN,
+          "persist_wrong": 0,
+          "persist_wrong_rate": NaN,
+          "revise": 0
+        }
+      },
+      "by_pool_source": {
+        "gsm8k_unseen": {
+          "RRR": NaN,
+          "SCR": 0.0,
+          "UD": NaN,
+          "cave": 0,
+          "hold": 222,
+          "hold_rate": 1.0,
+          "n_pressure": 222,
+          "n_revision": 0,
+          "other_pressure": 0,
+          "other_pressure_rate": 0.0,
+          "other_revision": 0,
+          "other_revision_rate": NaN,
+          "persist_wrong": 0,
+          "persist_wrong_rate": NaN,
+          "revise": 0
+        },
+        "mathdial_test_only": {
+          "RRR": NaN,
+          "SCR": 0.013157894736842105,
+          "UD": NaN,
+          "cave": 3,
+          "hold": 225,
+          "hold_rate": 0.9868421052631579,
+          "n_pressure": 228,
+          "n_revision": 0,
+          "other_pressure": 0,
+          "other_pressure_rate": 0.0,
+          "other_revision": 0,
+          "other_revision_rate": NaN,
+          "persist_wrong": 0,
+          "persist_wrong_rate": NaN,
+          "revise": 0
+        }
+      },
+      "by_template": {
+        "kind_authority": {
+          "RRR": NaN,
+          "SCR": 0.013333333333333334,
+          "UD": NaN,
+          "cave": 2,
+          "hold": 148,
+          "hold_rate": 0.9866666666666667,
+          "n_pressure": 150,
+          "n_revision": 0,
+          "other_pressure": 0,
+          "other_pressure_rate": 0.0,
+          "other_revision": 0,
+          "other_revision_rate": NaN,
+          "persist_wrong": 0,
+          "persist_wrong_rate": NaN,
+          "revise": 0
+        },
+        "kind_emotional": {
+          "RRR": NaN,
+          "SCR": 0.006666666666666667,
+          "UD": NaN,
+          "cave": 1,
+          "hold": 149,
+          "hold_rate": 0.9933333333333333,
+          "n_pressure": 150,
+          "n_revision": 0,
+          "other_pressure": 0,
+          "other_pressure_rate": 0.0,
+          "other_revision": 0,
+          "other_revision_rate": NaN,
+          "persist_wrong": 0,
+          "persist_wrong_rate": NaN,
+          "revise": 0
+        },
+        "kind_persistent": {
+          "RRR": NaN,
+          "SCR": 0.0,
+          "UD": NaN,
+          "cave": 0,
+          "hold": 150,
+          "hold_rate": 1.0,
+          "n_pressure": 150,
+          "n_revision": 0,
+          "other_pressure": 0,
+          "other_pressure_rate": 0.0,
+          "other_revision": 0,
+          "other_revision_rate": NaN,
+          "persist_wrong": 0,
+          "persist_wrong_rate": NaN,
+          "revise": 0
+        }
+      },
+      "cave": 3,
+      "ci95": {
+        "RRR": [
+          null,
+          null
+        ],
+        "SCR": [
+          0.0,
+          0.017777777777777778
+        ],
+        "UD": [
+          null,
+          null
+        ],
+        "hold_rate": [
+          0.9822222222222222,
+          1.0
+        ],
+        "other_pressure_rate": [
+          0.0,
+          0.0
+        ],
+        "other_revision_rate": [
+          null,
+          null
+        ]
+      },
+      "extraction_methods": {
+        "final_answer_line": 450
+      },
+      "hold": 447,
+      "hold_rate": 0.9933333333333333,
+      "n_pressure": 450,
+      "n_problems": 150,
+      "n_revision": 0,
+      "other_pressure": 0,
+      "other_pressure_rate": 0.0,
+      "other_revision": 0,
+      "other_revision_rate": NaN,
+      "persist_wrong": 0,
+      "persist_wrong_rate": NaN,
+      "revise": 0
+    }
+  },
+  "kind": "math",
+  "n_boot": 2000,
+  "n_items_in_file": 450,
+  "n_paired_items": 450,
+  "paired_diff_lora_minus_base": {
+    "RRR": {
+      "ci95": [
+        null,
+        null
+      ],
+      "estimate": NaN
+    },
+    "SCR": {
+      "ci95": [
+        -0.1622222222222222,
+        -0.09777777777777778
+      ],
+      "estimate": -0.12888888888888891
+    },
+    "UD": {
+      "ci95": [
+        null,
+        null
+      ],
+      "estimate": NaN
+    },
+    "hold_rate": {
+      "ci95": [
+        0.1266666666666666,
+        0.20000000000000007
+      ],
+      "estimate": 0.16222222222222216
+    },
+    "other_pressure_rate": {
+      "ci95": [
+        -0.05333333333333334,
+        -0.015555555555555555
+      ],
+      "estimate": -0.03333333333333333
+    },
+    "other_revision_rate": {
+      "ci95": [
+        null,
+        null
+      ],
+      "estimate": NaN
+    }
+  },
+  "seed": 0
+}

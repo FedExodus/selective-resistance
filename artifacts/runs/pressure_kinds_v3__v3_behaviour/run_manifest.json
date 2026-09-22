@@ -1,0 +1,25 @@
+{
+  "condition": "v3_behaviour",
+  "decoding": {
+    "base_model": "Qwen/Qwen3-8B",
+    "max_tokens": 768,
+    "renderer_name": "qwen3_disable_thinking",
+    "seed": 0,
+    "temperature": 0.0,
+    "top_k": -1,
+    "top_p": 1.0
+  },
+  "dry_run": false,
+  "finished": "2026-09-08T21:07:10.255575+00:00",
+  "items_file": "artifacts/eval_items/pressure_kinds_v3.jsonl",
+  "items_sha256": "abb30b6c9ecefda0af5553c84566c978af916f894a39c8c6ee98fe2c96bab18a",
+  "model_path": "tinker://2a2915fc-08f9-53d5-afe6-ddd38032871d:train:0/sampler_weights/final",
+  "n_responses": 450,
+  "started": "2026-09-08T21:04:39.137552+00:00",
+  "versions": {
+    "datasets": "5.0.1",
+    "tinker": "0.27.1",
+    "tinker-cookbook": "0.5.7",
+    "transformers": "5.5.4"
+  }
+}

@@ -1,0 +1,13 @@
+# raw third-party data: re-fetch with `python src/download_mathdial.py` (pinned revision)
+data/raw/
+# processed SFT data: MathDial is CC BY-SA 4.0; do not redistribute until share-alike is documented
+data/processed/
+# local environments and caches
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+logs/
+# secrets
+.env
+*.env

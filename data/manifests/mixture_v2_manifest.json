@@ -1,0 +1,39 @@
+{
+  "counts": {
+    "mathdial_train": 13076,
+    "mathdial_val": 1367,
+    "replay_share_train": 0.2,
+    "replay_train": 3269,
+    "replay_val": 342,
+    "train_total": 16345,
+    "val_total": 1709
+  },
+  "gsm8k_train_pool": {
+    "excluded": {
+      "in_eval": 32,
+      "unverified": 20
+    },
+    "n_raw": 7473,
+    "n_usable": 7421
+  },
+  "outputs": {
+    "sft_train_v2_mix.jsonl": {
+      "n_rows": 16345,
+      "sha256": "4c95bb1f5530432e83bceeaf6f205a1a22e23a105a202b84bbefa49f50648e7d"
+    },
+    "sft_val_v2_mix.jsonl": {
+      "n_rows": 1709,
+      "sha256": "a8620ad9739fa385b87533a0afad8f96d8e9b7986b17ef21eb9da7ba28a8ed3c"
+    }
+  },
+  "ratio_replay_to_mathdial": 0.25,
+  "replay_fields_used": [
+    "system_prompt",
+    "solve_instruction",
+    "seeded_correct_answer"
+  ],
+  "seed": 20260908,
+  "templates_file": "configs/eval_templates_v1.json",
+  "templates_sha256": "fc916b7552731382d41b50f0bbff4b579808fc93196751187921eb315038fb15",
+  "version": "v2_mix"
+}

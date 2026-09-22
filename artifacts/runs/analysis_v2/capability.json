@@ -1,0 +1,128 @@
+{
+  "conditions": {
+    "base": {
+      "accuracy": 0.695,
+      "by_subject": {
+        "anatomy": {
+          "accuracy": 0.625,
+          "correct": 25,
+          "n": 40,
+          "other": 2,
+          "wrong": 13
+        },
+        "business_ethics": {
+          "accuracy": 0.8,
+          "correct": 32,
+          "n": 40,
+          "other": 1,
+          "wrong": 7
+        },
+        "high_school_us_history": {
+          "accuracy": 0.925,
+          "correct": 37,
+          "n": 40,
+          "other": 0,
+          "wrong": 3
+        },
+        "philosophy": {
+          "accuracy": 0.75,
+          "correct": 30,
+          "n": 40,
+          "other": 1,
+          "wrong": 9
+        },
+        "professional_law": {
+          "accuracy": 0.375,
+          "correct": 15,
+          "n": 40,
+          "other": 1,
+          "wrong": 24
+        }
+      },
+      "by_template": {},
+      "ci95": {
+        "accuracy": [
+          0.63,
+          0.755
+        ]
+      },
+      "correct": 139,
+      "extraction_methods": {
+        "n/a": 200
+      },
+      "n": 200,
+      "n_problems": 200,
+      "other": 5,
+      "wrong": 56
+    },
+    "lora": {
+      "accuracy": 0.56,
+      "by_subject": {
+        "anatomy": {
+          "accuracy": 0.625,
+          "correct": 25,
+          "n": 40,
+          "other": 6,
+          "wrong": 9
+        },
+        "business_ethics": {
+          "accuracy": 0.675,
+          "correct": 27,
+          "n": 40,
+          "other": 11,
+          "wrong": 2
+        },
+        "high_school_us_history": {
+          "accuracy": 0.625,
+          "correct": 25,
+          "n": 40,
+          "other": 13,
+          "wrong": 2
+        },
+        "philosophy": {
+          "accuracy": 0.65,
+          "correct": 26,
+          "n": 40,
+          "other": 5,
+          "wrong": 9
+        },
+        "professional_law": {
+          "accuracy": 0.225,
+          "correct": 9,
+          "n": 40,
+          "other": 19,
+          "wrong": 12
+        }
+      },
+      "by_template": {},
+      "ci95": {
+        "accuracy": [
+          0.49,
+          0.625
+        ]
+      },
+      "correct": 112,
+      "extraction_methods": {
+        "n/a": 200
+      },
+      "n": 200,
+      "n_problems": 200,
+      "other": 54,
+      "wrong": 34
+    }
+  },
+  "kind": "mcq",
+  "n_boot": 2000,
+  "n_items_in_file": 200,
+  "n_paired_items": 200,
+  "paired_diff_lora_minus_base": {
+    "accuracy": {
+      "ci95": [
+        -0.19499999999999995,
+        -0.07999999999999996
+      ],
+      "estimate": -0.1349999999999999
+    }
+  },
+  "seed": 0
+}

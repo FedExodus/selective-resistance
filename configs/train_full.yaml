@@ -1,0 +1,20 @@
+# Full run: the single MathDial LoRA the study compares against the base model.
+# Values below are PROPOSED and need approval (handoff section 13).
+model_name: Qwen/Qwen3-8B
+renderer_name: qwen3_disable_thinking
+train_path: data/processed/sft_train.jsonl
+val_path: data/processed/sft_val.jsonl
+train_on_what: last_assistant_message
+log_path: logs/full
+lora_rank: 32
+learning_rate: 4.7e-4
+lr_schedule: linear
+num_epochs: 1
+batch_size: 64
+max_length: 3072            # longest per-turn example is 2495 tokens; nothing truncates
+allow_truncation: false
+pilot_n_dialogues: null
+pilot_seed: 0
+max_steps: null
+save_every: 50
+eval_every: 25

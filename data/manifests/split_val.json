@@ -1,0 +1,1206 @@
+{
+  "qids": [
+    5000005,
+    5000007,
+    5000012,
+    5000027,
+    5000050,
+    5000059,
+    5000066,
+    5000067,
+    5000074,
+    5000096,
+    5000100,
+    5000106,
+    5000118,
+    5000137,
+    5000140,
+    5000149,
+    5000156,
+    5000165,
+    5000178,
+    5000182,
+    5000198,
+    5000220,
+    5000224,
+    5000231,
+    5000240,
+    5000246,
+    5000269,
+    5000287,
+    5000301,
+    5000309,
+    5000315,
+    5000322,
+    5000331,
+    5000337,
+    5000373,
+    5000394,
+    5000406,
+    5000415,
+    5000421,
+    5000430,
+    5000434,
+    5000435,
+    5000444,
+    5000467,
+    5000473,
+    5000478,
+    5000486,
+    5000497,
+    5000503,
+    5000509,
+    5000520,
+    5000522,
+    5000523,
+    5000543,
+    5000571,
+    5000576,
+    5000589,
+    5000608,
+    5000609,
+    5000616,
+    5000619,
+    5000620,
+    5000629,
+    5000632,
+    5000633,
+    5000638,
+    5000656,
+    5000664,
+    5000676,
+    5000696,
+    5000705,
+    5000741,
+    5000788,
+    5000800,
+    5000803,
+    5000810,
+    5000816,
+    5000818,
+    5000843,
+    5000844,
+    5000847,
+    5000851,
+    5000896,
+    5000897,
+    5000922,
+    5000935,
+    5000939,
+    5000955,
+    5000966,
+    5000970,
+    5000977,
+    5000985,
+    5000993,
+    5001011,
+    5001020,
+    5001028,
+    5001036,
+    5001042,
+    5001068,
+    5001096,
+    5001098,
+    5001113,
+    5001124,
+    5001127
+  ],
+  "rows": [
+    {
+      "qid": 5000012,
+      "row_hash": "2cea6364a38cbc6eec391e940e9075fc3d704bbadc8ef5e4c9facc4dbf2aa918",
+      "row_id": "train:00000"
+    },
+    {
+      "qid": 5001020,
+      "row_hash": "0b82894f74f370688cde1f7de282b8fe0a82e059357d10bc1c7193959fb97271",
+      "row_id": "train:00018"
+    },
+    {
+      "qid": 5000800,
+      "row_hash": "dca1ca9276d54f1b79f465c5fdabb89111be61cc1a42117746505f5f4f36b6a5",
+      "row_id": "train:00042"
+    },
+    {
+      "qid": 5000589,
+      "row_hash": "315fb141d15011f1b4c83090a00586e7648c9a9e0acdaa4ec8ca12222eac731a",
+      "row_id": "train:00048"
+    },
+    {
+      "qid": 5000315,
+      "row_hash": "d385a5b8eea322c8254c604d607cde8be18c8d180591bc5e98433f2803bf23c9",
+      "row_id": "train:00050"
+    },
+    {
+      "qid": 5000012,
+      "row_hash": "e769ba39f87cb029e40da2e4ad4b59395bee8a0368c27eb1fb0b82bcc1bb9a50",
+      "row_id": "train:00073"
+    },
+    {
+      "qid": 5000373,
+      "row_hash": "521433fe7ac47b25e43d6d72f64ee3dd09df1120ef117eef681cf2a9c2af518b",
+      "row_id": "train:00089"
+    },
+    {
+      "qid": 5000955,
+      "row_hash": "a55d7a49b22d9883ace372d10e5da4314b2d0757f5e5701a59fcb7f88d9778bf",
+      "row_id": "train:00110"
+    },
+    {
+      "qid": 5000050,
+      "row_hash": "018fa7623491bd8b7d786d374c4e22039e3fa0ca969d27459cd0bd81c545e985",
+      "row_id": "train:00118"
+    },
+    {
+      "qid": 5001028,
+      "row_hash": "f1e6114daa0ea6829b7fc078b5b2be24a52013e410980f891179360f518e92aa",
+      "row_id": "train:00124"
+    },
+    {
+      "qid": 5000066,
+      "row_hash": "86b8bf20dc7642d09d5b32f247b94f055921f4afec4cf240ae54d1f38e783740",
+      "row_id": "train:00134"
+    },
+    {
+      "qid": 5000620,
+      "row_hash": "322ab42db880b95c5f3b43bb66d34ea90a280932b1e22af6a64c7f64c9d8d7ad",
+      "row_id": "train:00142"
+    },
+    {
+      "qid": 5000140,
+      "row_hash": "425debb380b10ba9eaf6186cf16d8d1ffb12b873b4061c06bdecc6a33178281c",
+      "row_id": "train:00147"
+    },
+    {
+      "qid": 5000844,
+      "row_hash": "1b3d9863762f6aa4362ac116901fd413b5114ff2166e85504445a1351fb4608b",
+      "row_id": "train:00160"
+    },
+    {
+      "qid": 5000106,
+      "row_hash": "6c2b256a64628fed82b2b9e6be19875d82ea0009b4a0b80613f7bfeabda35ddc",
+      "row_id": "train:00164"
+    },
+    {
+      "qid": 5000589,
+      "row_hash": "ce32cd7edface1c96ad1850c5bfe6f40b5e5cadeca0b2747f785f22512ae74bd",
+      "row_id": "train:00183"
+    },
+    {
+      "qid": 5001127,
+      "row_hash": "f58b6d25eaa02ba95313f84fc3a5db9dfd13519801e675230e45df0aa7035bf0",
+      "row_id": "train:00184"
+    },
+    {
+      "qid": 5000977,
+      "row_hash": "b5345e24d60fc4494beb9a8485a47daf9199941639d35d0414fc69519e8f612c",
+      "row_id": "train:00192"
+    },
+    {
+      "qid": 5000106,
+      "row_hash": "24e6f5415c3234cffe8cb6c9d2063a48f9828e0b888b045b0066e08a743ed815",
+      "row_id": "train:00196"
+    },
+    {
+      "qid": 5000608,
+      "row_hash": "fc18286eafdb084428c7c1905b5c8fcac430b83fb880947612bec4913b42538f",
+      "row_id": "train:00201"
+    },
+    {
+      "qid": 5000322,
+      "row_hash": "12c3083083167c54407f4ce14a9ef18c050218c5e7454952cf207e5595b3b4cd",
+      "row_id": "train:00204"
+    },
+    {
+      "qid": 5000149,
+      "row_hash": "2dbc665fda2979eee73301e970d7e37d2f0eee250c791f700d30b2a976de5f03",
+      "row_id": "train:00211"
+    },
+    {
+      "qid": 5001020,
+      "row_hash": "a3616c84d302169656e4b25af6b61237822cb9e41276c0c9c7f07522914ecd1c",
+      "row_id": "train:00212"
+    },
+    {
+      "qid": 5000224,
+      "row_hash": "57b0c7d6f7f7b806a3f844281dac76837f3da2f612d3f546697a16a016243132",
+      "row_id": "train:00216"
+    },
+    {
+      "qid": 5001042,
+      "row_hash": "f90e1d21819f412b3012d279ce8bfd0364595b6b206c3983ff1d3fe64e472084",
+      "row_id": "train:00222"
+    },
+    {
+      "qid": 5000741,
+      "row_hash": "440ecd6ddc73783c130872cedec395f0e1e07e32de6348c9bd155d415b4cd68f",
+      "row_id": "train:00223"
+    },
+    {
+      "qid": 5000851,
+      "row_hash": "78b94344a75998f9ec09dc40793d9556983267d38971cad90abe906cae1be9d5",
+      "row_id": "train:00234"
+    },
+    {
+      "qid": 5000616,
+      "row_hash": "de3ceb1e91813bdb3ed439e3aafe41e4c463aff351dc5350df7111c33598dd3f",
+      "row_id": "train:00261"
+    },
+    {
+      "qid": 5000741,
+      "row_hash": "605c7247c1d1455d6c43e4be120ef7dbfd5b45a2926cb97bfda24fdb2024da73",
+      "row_id": "train:00267"
+    },
+    {
+      "qid": 5000269,
+      "row_hash": "058ec3a4b160c54c1c3b2cc17c428acd11881179779c639a96c9a950aa845026",
+      "row_id": "train:00280"
+    },
+    {
+      "qid": 5000522,
+      "row_hash": "13d5c83a9f89addd92b6f83c3096f98cde65613277d9d045eeb7ba4cf33b9b76",
+      "row_id": "train:00282"
+    },
+    {
+      "qid": 5000696,
+      "row_hash": "0a2d1fbe13c6d571ce522886512b15c6cc17ab89da59f5401002bb530fa92f0e",
+      "row_id": "train:00283"
+    },
+    {
+      "qid": 5000985,
+      "row_hash": "d6e755f4b8a3205a621f170195d43f666aa29f3c56798dcc70d734e527fe6312",
+      "row_id": "train:00284"
+    },
+    {
+      "qid": 5000609,
+      "row_hash": "51915bf9f1ef95698969f76adb318d0342207b82d4dd177b97122dead17da3c8",
+      "row_id": "train:00291"
+    },
+    {
+      "qid": 5000486,
+      "row_hash": "5ef58e725817e38f9d68b2cc27fbf3ee0142c71353eae0ee85830a271de7238f",
+      "row_id": "train:00304"
+    },
+    {
+      "qid": 5000522,
+      "row_hash": "5658a3621e55e8af8d821b7985ccc72521356f89d00750e2c6976969139bd63f",
+      "row_id": "train:00306"
+    },
+    {
+      "qid": 5000067,
+      "row_hash": "4512ad13bafbbb01f585db305309d77a6366003a6b8a50ce5e60ad069717daf1",
+      "row_id": "train:00311"
+    },
+    {
+      "qid": 5000005,
+      "row_hash": "fa94004201c502b8cf611a7eca4eba95ac327ab93b14092b643187cc870586ca",
+      "row_id": "train:00314"
+    },
+    {
+      "qid": 5000816,
+      "row_hash": "995983571fe528413a56c7f545c5b205ca90b04ac0461fb2afd36d661803db2b",
+      "row_id": "train:00322"
+    },
+    {
+      "qid": 5000050,
+      "row_hash": "d31e545f39f4b1982f5c9be44d9d3701fdbeeac226df134e8aa322a7a85f295e",
+      "row_id": "train:00339"
+    },
+    {
+      "qid": 5000939,
+      "row_hash": "f0f7b960aec026394d2857f66e752cba17119c6d1119c871d58df72ea28f270b",
+      "row_id": "train:00343"
+    },
+    {
+      "qid": 5001036,
+      "row_hash": "b94a40e805b06628a0077680d7142b11e93ddd234df51ff88957e72235949176",
+      "row_id": "train:00345"
+    },
+    {
+      "qid": 5000523,
+      "row_hash": "c2d47757c4eb03a2fb5864310096244c2f3a69e67a984871e4f723a12af81a91",
+      "row_id": "train:00349"
+    },
+    {
+      "qid": 5000478,
+      "row_hash": "0723688423eaa6edbf75fabad19187d3ff0222b4c4b2a49038afa04ced79add4",
+      "row_id": "train:00353"
+    },
+    {
+      "qid": 5000012,
+      "row_hash": "5e163bcbac2c61aa429305f6c1e1833be570992576abb9285282f61142f15684",
+      "row_id": "train:00355"
+    },
+    {
+      "qid": 5001020,
+      "row_hash": "b73522bb4b604dfd581a051f0ac41d9c3defc92b4f195903cc4f2a60c313537b",
+      "row_id": "train:00358"
+    },
+    {
+      "qid": 5000434,
+      "row_hash": "8719af3b1b4d03465a1136e697f4e19a9b457a2f04c59270b210a52f0efd4bc7",
+      "row_id": "train:00365"
+    },
+    {
+      "qid": 5001124,
+      "row_hash": "fdc2b587d7fbab2c90e2a890c68742634cd02e0f21608c68c2d7a4d9687f2436",
+      "row_id": "train:00368"
+    },
+    {
+      "qid": 5000503,
+      "row_hash": "1ae6fdccf8975783ee7988dac35423fdadb6a3d782a766d915d92e07c6d6fa73",
+      "row_id": "train:00370"
+    },
+    {
+      "qid": 5000632,
+      "row_hash": "f0f843d06bd3e20b018119df9350ec0b455ec216b3b99a9c1261b405d5418367",
+      "row_id": "train:00378"
+    },
+    {
+      "qid": 5000800,
+      "row_hash": "e67f2a1df134e40fc14fc0aec2f09f84fde4d48cb48d75b0b013bf308bef3fa2",
+      "row_id": "train:00380"
+    },
+    {
+      "qid": 5000066,
+      "row_hash": "b39e077a8c1f6ec77bea1111670f998085e2b6ebe47a960fdf012235778cfb6e",
+      "row_id": "train:00399"
+    },
+    {
+      "qid": 5000050,
+      "row_hash": "95b6b104cc09f2c30f3a31b8d4588af4be48fe7e7d518deb827adbe1a442234d",
+      "row_id": "train:00413"
+    },
+    {
+      "qid": 5000676,
+      "row_hash": "a82b359a2ef368d4c7994eba6a9e4e5fd815fccfba4010f570e98dc67ca18d34",
+      "row_id": "train:00419"
+    },
+    {
+      "qid": 5000816,
+      "row_hash": "a422649537ee48ef8cc84ea90798933e168d54a8a269f5e19a096bc16e9e12e8",
+      "row_id": "train:00425"
+    },
+    {
+      "qid": 5000486,
+      "row_hash": "585b8257161df483862f54ab4a0df2bcf82f87bd245214dfef0c9e77297db73b",
+      "row_id": "train:00426"
+    },
+    {
+      "qid": 5000608,
+      "row_hash": "a10cd0fbcad110e87bc883258af5a5403b8ea975baad6d2764ef9c5879a39d58",
+      "row_id": "train:00427"
+    },
+    {
+      "qid": 5000100,
+      "row_hash": "f24bdc2ec2083cfb4e9935ebdbb9d52c419c4bd12713ed81b95eb29cec6282f8",
+      "row_id": "train:00450"
+    },
+    {
+      "qid": 5000619,
+      "row_hash": "42975d679681fafec75f5f404bc53e099bf3d63611c48e2ada9d8cbb883ebab0",
+      "row_id": "train:00463"
+    },
+    {
+      "qid": 5000074,
+      "row_hash": "f4e01f3d0181035c744d9a79cb133ba5da1597d2c72ef678706f9a35efa41939",
+      "row_id": "train:00468"
+    },
+    {
+      "qid": 5000970,
+      "row_hash": "0c7cf6a507d18ce7198abef5f78f2ab9af9952a167b6ef7e85974e28b360bc31",
+      "row_id": "train:00480"
+    },
+    {
+      "qid": 5000632,
+      "row_hash": "d0c4ac341da3e19afc662b3a19502a0ec16c5c9a2d2d1402fae7359f7c931361",
+      "row_id": "train:00481"
+    },
+    {
+      "qid": 5000315,
+      "row_hash": "901d7e8d4deca6d43e407c70e9397f57867925036b12c10c3afe849460a47b8f",
+      "row_id": "train:00485"
+    },
+    {
+      "qid": 5001020,
+      "row_hash": "0401b0f971f9152aa1aa41b937a0a9db650d4b8f178efbb21a8e505eeeeebc7a",
+      "row_id": "train:00498"
+    },
+    {
+      "qid": 5000633,
+      "row_hash": "1605727a3c4ad314507b3191485102e49281d937cd9da824dbc8ad2a93fb9d79",
+      "row_id": "train:00503"
+    },
+    {
+      "qid": 5000315,
+      "row_hash": "876397940c25e3b40bb6d8642bc5a039181deaf75a36c6782a685209b6b4305e",
+      "row_id": "train:00508"
+    },
+    {
+      "qid": 5000656,
+      "row_hash": "cef399fd4b13fdf009cd5468655c4bc9ec7b00fc55e44146e804bd9245600352",
+      "row_id": "train:00509"
+    },
+    {
+      "qid": 5000059,
+      "row_hash": "6b2c76324eea8e5534154a185be946af5f19d9bc164ba24c5636dc4f643b15a2",
+      "row_id": "train:00510"
+    },
+    {
+      "qid": 5000149,
+      "row_hash": "6e12e8bfdfa4f96bf00da71c93a19a647f474b26ac73fa2da8ba0fc903ec359c",
+      "row_id": "train:00523"
+    },
+    {
+      "qid": 5000844,
+      "row_hash": "4edc0c5af88db744333166ea9a9b265498b77e58aede64a671011a5fd0c8c4e1",
+      "row_id": "train:00525"
+    },
+    {
+      "qid": 5000394,
+      "row_hash": "580bd8833f3394606b0a9cac4c7bc10864569a258263d46c9548011e60571640",
+      "row_id": "train:00530"
+    },
+    {
+      "qid": 5000269,
+      "row_hash": "a8c464f67e99c6173fb64637cf70960103e26d077ee1b5562247534af29f54ab",
+      "row_id": "train:00537"
+    },
+    {
+      "qid": 5000430,
+      "row_hash": "6669f760108e0498cea4bccabd9ca3c68ddf2e7dc909e948c2270ebebeff6beb",
+      "row_id": "train:00559"
+    },
+    {
+      "qid": 5000178,
+      "row_hash": "245117b260ae62c00cf01523e00961cc694de349d4d4799f04bf00975c327141",
+      "row_id": "train:00561"
+    },
+    {
+      "qid": 5000620,
+      "row_hash": "b7a6e71f2448d4f38cb10748ce77bd189a6506d3cb88d78cd48bfb630fb7f76b",
+      "row_id": "train:00593"
+    },
+    {
+      "qid": 5001124,
+      "row_hash": "b39bdad2d58d7b417114126c22ed755bdae0240583c6a3d75fa3109607d0d619",
+      "row_id": "train:00612"
+    },
+    {
+      "qid": 5000939,
+      "row_hash": "1eb9b4dec504c250390b4181e3ff006b6617e9d05be55f7269179dc559097798",
+      "row_id": "train:00634"
+    },
+    {
+      "qid": 5000503,
+      "row_hash": "15a00344f9ac7ef265af7d5a956c579d118f5190cc6eb818fe763d1da4cf2567",
+      "row_id": "train:00688"
+    },
+    {
+      "qid": 5000843,
+      "row_hash": "5ba749105546216fde81dbd1f09a6f6834f7006abb64a4051fe0434630c71fa8",
+      "row_id": "train:00694"
+    },
+    {
+      "qid": 5000137,
+      "row_hash": "e6c4caf0695c1d365f5d4ebfd4ebe71bf1b05be15bf90bb1b3d510f03d69dd13",
+      "row_id": "train:00703"
+    },
+    {
+      "qid": 5001098,
+      "row_hash": "21d5e2ec045f4bec8874c45ae63db620f43d9fd8d73cc0fb57d3ade3945b202a",
+      "row_id": "train:00743"
+    },
+    {
+      "qid": 5000478,
+      "row_hash": "27150c07130429b7826101f1c12f57446f970d9a69c86d8ef230e4734f79c153",
+      "row_id": "train:00746"
+    },
+    {
+      "qid": 5000497,
+      "row_hash": "38e22ef0e2ea1e5ac8b423cb40d19060968e946b0f75e44c5d372ce3f00b0e46",
+      "row_id": "train:00757"
+    },
+    {
+      "qid": 5000847,
+      "row_hash": "b72e443bdd99fae91564a89b578d5521c6c417fcde2c4e2dc7e5a7e2ed75b1cf",
+      "row_id": "train:00789"
+    },
+    {
+      "qid": 5001068,
+      "row_hash": "e917bd2b137e557f545522d78caf0e36a68f654beddb8aa4fc47e8aed9ed4c92",
+      "row_id": "train:00792"
+    },
+    {
+      "qid": 5000337,
+      "row_hash": "2dd2620a375d61393620a7c3dc2a1c491b0ccfefd63069bd22d6bb09f37992db",
+      "row_id": "train:00798"
+    },
+    {
+      "qid": 5000165,
+      "row_hash": "5e26dfb7e7ba2e4f37d458a1e17eddf5eb364825a27fb49b18c7b6d9e0bc3f19",
+      "row_id": "train:00842"
+    },
+    {
+      "qid": 5000851,
+      "row_hash": "3e9c5c7a75b7aeaef2620987245e94c33d73adbc4c1eedd68eef9bebd9309deb",
+      "row_id": "train:00853"
+    },
+    {
+      "qid": 5000970,
+      "row_hash": "4d04f7ad85c0f6ed5da85323b934aec7ea4c0c65f44371906c83a2e67a541fd5",
+      "row_id": "train:00854"
+    },
+    {
+      "qid": 5000430,
+      "row_hash": "03fd274632b4be657a03c93a2aad12bcafd7d12d3087cfe6c91a5b2b790062be",
+      "row_id": "train:00856"
+    },
+    {
+      "qid": 5000246,
+      "row_hash": "91158668234914b57900fa80831db2b1598361e64ba41661d2b2c9a8b4a16996",
+      "row_id": "train:00866"
+    },
+    {
+      "qid": 5000896,
+      "row_hash": "466b7067f909e06d6cd040604b6acf73d866b70cba52fe5b68c4f73ab6edb5a0",
+      "row_id": "train:00892"
+    },
+    {
+      "qid": 5000444,
+      "row_hash": "60c1ceec9b660342497917151d1db9d2a2d468ad3e1106cb91ebe754a310f727",
+      "row_id": "train:00915"
+    },
+    {
+      "qid": 5000415,
+      "row_hash": "9ce5c5c626d0bbf42901791f7ceaeae0a79e4d9f834a7d311e9aa8c994b39a78",
+      "row_id": "train:00923"
+    },
+    {
+      "qid": 5001124,
+      "row_hash": "cc5523ea5982d7aa91c521187999a5204d2fca7da7dd3a052b6177868ee86f93",
+      "row_id": "train:00929"
+    },
+    {
+      "qid": 5001011,
+      "row_hash": "6832f83aeb3bdc801e8c315d38b67e9ad551124c0fe931228a98e2f36ec6283d",
+      "row_id": "train:00934"
+    },
+    {
+      "qid": 5000118,
+      "row_hash": "9b04a58b2c3813d7e24b35646391aa0d02910c65ac5e8d24a098e30499c701df",
+      "row_id": "train:00948"
+    },
+    {
+      "qid": 5000067,
+      "row_hash": "b86104514bd8c84f8aebd6ace44b38eec2022295d6bce6dcb7c8f0557e96a785",
+      "row_id": "train:00961"
+    },
+    {
+      "qid": 5000847,
+      "row_hash": "af11e0b82959c256e9c20d95cae30efc07152e978c1913632b4e252272567191",
+      "row_id": "train:00976"
+    },
+    {
+      "qid": 5000935,
+      "row_hash": "f09fd273b0fdf1445fe04cafea66440ae4e4be32378d21d31fd726bececc25d9",
+      "row_id": "train:00984"
+    },
+    {
+      "qid": 5000977,
+      "row_hash": "7127a9785f5475607f7166bfc559bcdacdd5fe5e8cc3d9e29917b5c7f35e9397",
+      "row_id": "train:01001"
+    },
+    {
+      "qid": 5000301,
+      "row_hash": "fe0b39bd3d36affb102031c6d6b53daa30b6c83cb999afd813cdb3dc61f218d5",
+      "row_id": "train:01013"
+    },
+    {
+      "qid": 5000922,
+      "row_hash": "933de9de0df0da465a218a366f8890143ab67e6cd1932b426ccf7c0a47c52c5c",
+      "row_id": "train:01029"
+    },
+    {
+      "qid": 5000421,
+      "row_hash": "ea650ff8b2dce51459d018becf3154a0e907161b269f73b106b7854023e98a76",
+      "row_id": "train:01030"
+    },
+    {
+      "qid": 5000007,
+      "row_hash": "df25b2e1de739b8c1ab7aa2b925c4426f68aef2f32ecacfd69ff38182bfbed48",
+      "row_id": "train:01039"
+    },
+    {
+      "qid": 5000140,
+      "row_hash": "4a6d92c1ad8a2a5bbe1613a5ca7e5873e5c587cd5c7abfdac547fd7327d8a395",
+      "row_id": "train:01054"
+    },
+    {
+      "qid": 5000633,
+      "row_hash": "48e660324ec97d4178b191913bbf2333089b7552dcbce60bf4fae88d935b6d5e",
+      "row_id": "train:01055"
+    },
+    {
+      "qid": 5000165,
+      "row_hash": "1546dc70ec75e177c27911f6a6ee6bd0e50f0993f1cdf00ae34c2601eb98faec",
+      "row_id": "train:01058"
+    },
+    {
+      "qid": 5000609,
+      "row_hash": "48feb0fd9e203a94083f941bb9a21f6c41a015e0a2908891fb278ca24cd651b8",
+      "row_id": "train:01065"
+    },
+    {
+      "qid": 5000705,
+      "row_hash": "d027abd7ed871dc50704a44c19e7fb105c50203b4cca121c1e0b617ef33f29fd",
+      "row_id": "train:01085"
+    },
+    {
+      "qid": 5000240,
+      "row_hash": "5307a9f1494dbf91479a88dbb266a835ef3b6d2e240fc4617fa339ed44fc494e",
+      "row_id": "train:01092"
+    },
+    {
+      "qid": 5000220,
+      "row_hash": "160b92cb0fccfb57195768beab600cb32ec2bcdaba522952e34205f83a929a30",
+      "row_id": "train:01097"
+    },
+    {
+      "qid": 5000497,
+      "row_hash": "c75e8f2e4f3bb9af3d320820595860501b912912181e74aa7becc598d029c5f3",
+      "row_id": "train:01103"
+    },
+    {
+      "qid": 5000059,
+      "row_hash": "9ad07a9d4649e93f9b3b174a5c0cd1fdddf042c2bad6a379ac38fc7fd8798f65",
+      "row_id": "train:01107"
+    },
+    {
+      "qid": 5000444,
+      "row_hash": "290f47ef5b678127667999d157ec8dc14ff9d22a97f5750ac5777c32d4c7ea9d",
+      "row_id": "train:01113"
+    },
+    {
+      "qid": 5000287,
+      "row_hash": "2225d649eaadc5c68322ddf64cbac45b699fc1ee11fb2783f1cd6044cd7f43f0",
+      "row_id": "train:01120"
+    },
+    {
+      "qid": 5000178,
+      "row_hash": "c08a77860a8b38231cab464b677f89eb77c9666c61d986f3de805fda387228bc",
+      "row_id": "train:01125"
+    },
+    {
+      "qid": 5000467,
+      "row_hash": "5dcc1798ceead58f525cc37c5fd7805cc8170b316754fe4a2449579c96b0fdb8",
+      "row_id": "train:01139"
+    },
+    {
+      "qid": 5001113,
+      "row_hash": "be4797f94486c8af29cfa69afc8d95a804ea474aee46753646b50dbabce7e5b9",
+      "row_id": "train:01155"
+    },
+    {
+      "qid": 5000027,
+      "row_hash": "67a5bde6a19e4aef5d081fb97998ce691cbe1ffd38bf4dcd8e67f3eeb5741f7a",
+      "row_id": "train:01201"
+    },
+    {
+      "qid": 5000478,
+      "row_hash": "aea28eb6decdd6dbc26688af94b1f65ce7877f9f496afea1ef478a87080a0e1f",
+      "row_id": "train:01206"
+    },
+    {
+      "qid": 5001068,
+      "row_hash": "5ce7f7abdd9706cb15c6e715e198b589723e9eb165ce576cbed1dd783935c8b0",
+      "row_id": "train:01211"
+    },
+    {
+      "qid": 5000696,
+      "row_hash": "dc7d9f8e61aee9fc9278b72b43ccf16e2bdfcb77f43d2ccb5664dc3f3d35fe2f",
+      "row_id": "train:01248"
+    },
+    {
+      "qid": 5000543,
+      "row_hash": "7555f6254fc69d9a4d17a23c5920e2fd21c7661e32801043f5305f3822ff3a63",
+      "row_id": "train:01252"
+    },
+    {
+      "qid": 5000576,
+      "row_hash": "472ac47f5339a2ffb764e0c16a9162ccdb381f20080f1782d0e5eb2d8c1a5999",
+      "row_id": "train:01257"
+    },
+    {
+      "qid": 5000810,
+      "row_hash": "ebfc2a41400d5acff51670a45321eda757ac9748c4a385fad97ca08662ede770",
+      "row_id": "train:01263"
+    },
+    {
+      "qid": 5000638,
+      "row_hash": "245227a3bc78e45bdb88bab9b0efe61605dbceeec6f67be6307e8a609ceb8cc5",
+      "row_id": "train:01276"
+    },
+    {
+      "qid": 5000741,
+      "row_hash": "71e5a26fecd766484f01576795668ef5ccadb63224bc218029845ced952faf6c",
+      "row_id": "train:01283"
+    },
+    {
+      "qid": 5000788,
+      "row_hash": "90a6b0bdfe4ceda2105b48a2acb10a11ff24e7d0c03efdd3870f714a0e0208f0",
+      "row_id": "train:01285"
+    },
+    {
+      "qid": 5001127,
+      "row_hash": "26985bfd0cded3f78d6cef288140699d7d470c0c8a7147af70da7168839ad6d6",
+      "row_id": "train:01288"
+    },
+    {
+      "qid": 5000966,
+      "row_hash": "1eda7fc4930b344ea21b887eb3cd04279723a18a622a2ab659e7c8a7897d664b",
+      "row_id": "train:01297"
+    },
+    {
+      "qid": 5000415,
+      "row_hash": "c5502bba7805b3844f76cdf3b03b515802a7fa4844a46ad68b7b694b45d6f0cd",
+      "row_id": "train:01301"
+    },
+    {
+      "qid": 5000523,
+      "row_hash": "0ce181beab56be013c03e3598274717235973bf17d79d1af5cb55855ea9be4dc",
+      "row_id": "train:01303"
+    },
+    {
+      "qid": 5000467,
+      "row_hash": "a35cea4788230dbb9ad0303fd621a35dafbb6d902c827a4b4dfde19d0ff283fe",
+      "row_id": "train:01306"
+    },
+    {
+      "qid": 5000149,
+      "row_hash": "ffc22e4c7a769a5405d923ee0b040d2575933bb81b31c5b7361661191b18f5f7",
+      "row_id": "train:01318"
+    },
+    {
+      "qid": 5000664,
+      "row_hash": "0f11d7a766f092f9c9612ca5b681cc582431a1ff4a9c836e4a2a487ffa60460d",
+      "row_id": "train:01330"
+    },
+    {
+      "qid": 5000576,
+      "row_hash": "11af9294adee7441ed001b92bcf5f22621dbd6c7b99468d41a39a5567386750d",
+      "row_id": "train:01336"
+    },
+    {
+      "qid": 5001020,
+      "row_hash": "c5da7b57f1888c0e08b79e21b7d7c7ba26063cf0b9cb0ab1502a2b818db02be4",
+      "row_id": "train:01339"
+    },
+    {
+      "qid": 5000005,
+      "row_hash": "963e59e7c2a2904b1878777316fc90e8718b8d39c7fc13689f11dba0b60235c9",
+      "row_id": "train:01359"
+    },
+    {
+      "qid": 5000435,
+      "row_hash": "a5c912dfc911fb273bca1adc340b0122abcaa9d4a665f6827a29f042051672a1",
+      "row_id": "train:01372"
+    },
+    {
+      "qid": 5000509,
+      "row_hash": "87d09a6c0e45a3d9177e54ef4f0305d33b2476d3a66b8abca1988f354a55d5d4",
+      "row_id": "train:01384"
+    },
+    {
+      "qid": 5000576,
+      "row_hash": "bce4ff8038cc7ab2dc300ae983e31fe9993144aca1db7814fdf43df8f127b552",
+      "row_id": "train:01386"
+    },
+    {
+      "qid": 5000609,
+      "row_hash": "5191af7091104bad793887d8ba6b3f54e198fa821aa76f71654c1962adaeb588",
+      "row_id": "train:01389"
+    },
+    {
+      "qid": 5000246,
+      "row_hash": "99c961de0ca632a04aba32a6e2ddf6f9097efec94707d25268601928967644df",
+      "row_id": "train:01391"
+    },
+    {
+      "qid": 5000007,
+      "row_hash": "061918fb932f9ebb3b72f35e602609d123b369a8ab48acaa31c07c722f93d293",
+      "row_id": "train:01399"
+    },
+    {
+      "qid": 5000993,
+      "row_hash": "35d5b0748af81b4aaab36393c54987a2db3621c6e2bdcc77c254c0c0efbd99ab",
+      "row_id": "train:01406"
+    },
+    {
+      "qid": 5000897,
+      "row_hash": "bcf5cc4d561fc4f714515e13ce6aa31ff8e7f38c03fa14d89475c2683bcf4c1b",
+      "row_id": "train:01407"
+    },
+    {
+      "qid": 5000331,
+      "row_hash": "1943d16647267f4b355793ca08dd9f8aaef707c0065147d94e688d4c0afdd93a",
+      "row_id": "train:01418"
+    },
+    {
+      "qid": 5000394,
+      "row_hash": "7f80ce8a2ac66a2f0882c3ee07488d0d7f443b83987cf1175131fd8385626560",
+      "row_id": "train:01438"
+    },
+    {
+      "qid": 5000897,
+      "row_hash": "d650cee722d4c5ae2801942778e0944635d18b382fcd2286f9f0192b0b825bb0",
+      "row_id": "train:01455"
+    },
+    {
+      "qid": 5000224,
+      "row_hash": "a9e5de5480b2ca4ea826140eb0ce0934f7814d793fd040c989e4069b7c7faa15",
+      "row_id": "train:01459"
+    },
+    {
+      "qid": 5001036,
+      "row_hash": "3ae281904f0d0cdbb7f17a432bd00ae1406cef89e446374a16b413d43d197823",
+      "row_id": "train:01461"
+    },
+    {
+      "qid": 5000633,
+      "row_hash": "e8b8956be4ca1869ae184cabfea9744b95f605880cf5c1bda5d71dbec0b0c8c1",
+      "row_id": "train:01477"
+    },
+    {
+      "qid": 5000067,
+      "row_hash": "2c9fd88fe8d27d5ce516e5b6c497271be8d2fc0b625c9086446f4d29ed0b2eb9",
+      "row_id": "train:01494"
+    },
+    {
+      "qid": 5000977,
+      "row_hash": "e6b5aec42398bb400cf2dfdff8fea2eea241babc9c24bb5ef185af7e2493bddd",
+      "row_id": "train:01539"
+    },
+    {
+      "qid": 5000224,
+      "row_hash": "6236639c7a0418fe9447593f28165e4a7cb81ab4fc227f9ee052a9ffb5fc36fb",
+      "row_id": "train:01541"
+    },
+    {
+      "qid": 5000156,
+      "row_hash": "29be2a47e0317e04b2fada9ab9becaf4425693032e80eab9c42d24bfd8321cad",
+      "row_id": "train:01570"
+    },
+    {
+      "qid": 5000096,
+      "row_hash": "b243d6fd1c313084a077e6fd886e76f5b2d899c94153c31b6f2079976cf6e348",
+      "row_id": "train:01574"
+    },
+    {
+      "qid": 5000523,
+      "row_hash": "7019dd9d16fefb53750babc24e1898ac2d680104e9d91c99d1b12577f1f6c218",
+      "row_id": "train:01576"
+    },
+    {
+      "qid": 5001096,
+      "row_hash": "cc5b2834f91258b1bde6bd4e28d1b4a1a41e01fb83b40f18787a94fc6a1c91e2",
+      "row_id": "train:01603"
+    },
+    {
+      "qid": 5001011,
+      "row_hash": "356ec4bc4b7f35dbbd22113cb272dff5b4bcf76ef697c287d5bceaf41c7b1f6f",
+      "row_id": "train:01612"
+    },
+    {
+      "qid": 5000156,
+      "row_hash": "8148b59040d742b3ee548352b1cf0deac527d10a51a4b51bc5502032ce4ee791",
+      "row_id": "train:01618"
+    },
+    {
+      "qid": 5000406,
+      "row_hash": "8a96787b04426267f4f1c3f8ecd9a3f498caf1962ac8b843bda84b6ccfcd2815",
+      "row_id": "train:01625"
+    },
+    {
+      "qid": 5000897,
+      "row_hash": "898f225c985dc6cd09199884b841aee9f0b736fd273edf806be4870cce4a348d",
+      "row_id": "train:01626"
+    },
+    {
+      "qid": 5000896,
+      "row_hash": "7a53a006efdeae0cf222c4ed235f1759cb1a6c5b1e35bff2a76d10c45a145a89",
+      "row_id": "train:01638"
+    },
+    {
+      "qid": 5001036,
+      "row_hash": "261917b6515f6a82e59bab7be02719e917f29c1ee8f28161149a0ded7c4bc90d",
+      "row_id": "train:01639"
+    },
+    {
+      "qid": 5000696,
+      "row_hash": "f98f8e8e9a4729d7cafb88a809a518cb110ffa10f3f4325494a017a3ace2d2e3",
+      "row_id": "train:01648"
+    },
+    {
+      "qid": 5000473,
+      "row_hash": "642f0b48ffdf4baa46fef3e41c2673a93a109195501a89c9d3a84bc6dede42e9",
+      "row_id": "train:01650"
+    },
+    {
+      "qid": 5000843,
+      "row_hash": "e8267c0ec1172d72b4de5efb1ebdc503a9d82e84c238148a66eee8a05cfbd0a1",
+      "row_id": "train:01655"
+    },
+    {
+      "qid": 5000803,
+      "row_hash": "27af104148e5f8a9e46e6e662264dc2d24401a3bf0dadc057a5f39de94c9d037",
+      "row_id": "train:01662"
+    },
+    {
+      "qid": 5000955,
+      "row_hash": "7d21c983e706fa2b69e7f1c7dbeed4e07892f2a1aa23ad787706f262687dafb8",
+      "row_id": "train:01665"
+    },
+    {
+      "qid": 5000629,
+      "row_hash": "764b826ce387b2fb0159624da1da7612e7213ff4728fa210e98736e734fb398b",
+      "row_id": "train:01672"
+    },
+    {
+      "qid": 5000182,
+      "row_hash": "fa182830ee7d5f6ca629288464748fdc4227034a5c7d5c5db3ad033a72c636d0",
+      "row_id": "train:01673"
+    },
+    {
+      "qid": 5000156,
+      "row_hash": "e2380b82ed11bac5112e15d057b59f9893bb57b5f7bbbb478ac21a3c0e6fdbf2",
+      "row_id": "train:01683"
+    },
+    {
+      "qid": 5000571,
+      "row_hash": "43abf42427231a4910ede5cecfe44ab717143b74116b9e342f0e7ddac454e050",
+      "row_id": "train:01686"
+    },
+    {
+      "qid": 5001124,
+      "row_hash": "f5eac54a964ac010efeffb45c150e2d3fffa94e92832ef56313f1afefe47c7aa",
+      "row_id": "train:01736"
+    },
+    {
+      "qid": 5000970,
+      "row_hash": "f834cbc6dca12100b0621cbab4aab465d0af11c3a78ea3b978070be0a15fc026",
+      "row_id": "train:01738"
+    },
+    {
+      "qid": 5000074,
+      "row_hash": "4a14d29c6cdcbeb8d294e3a9862d25c1eab747b5a3a1eb1c376ee09c84fa4f61",
+      "row_id": "train:01751"
+    },
+    {
+      "qid": 5000067,
+      "row_hash": "870d6754901d89c9e34a49cbe25724507de5036476508de7bbc9b3e83894fc2a",
+      "row_id": "train:01765"
+    },
+    {
+      "qid": 5000497,
+      "row_hash": "11db418ef44241fa0489a4cf6b2de43ed3d821137e21cbb29d47f48446c80d2a",
+      "row_id": "train:01766"
+    },
+    {
+      "qid": 5000007,
+      "row_hash": "a29870b6feb8aba55562513b2a3d0642574e17a3ef79b16f984e5663061fdab6",
+      "row_id": "train:01769"
+    },
+    {
+      "qid": 5000705,
+      "row_hash": "fef1156f7c390d7850d4b1e0eab72f39f32438aea5230597ea2ef582f9966208",
+      "row_id": "train:01785"
+    },
+    {
+      "qid": 5000486,
+      "row_hash": "ecd4173ab7d8f650f35022d047d88051970b84783e5a41c8395edd68b9827859",
+      "row_id": "train:01806"
+    },
+    {
+      "qid": 5000231,
+      "row_hash": "1c2a304ddcc1554e24d455769b8fabced877b44c6cda908bb91cc2ab6adcd7e7",
+      "row_id": "train:01820"
+    },
+    {
+      "qid": 5000066,
+      "row_hash": "cc7cf99faa3826c2d12d005fd7a2e25f08fb95179d85b5558a4d6019999b81fa",
+      "row_id": "train:01821"
+    },
+    {
+      "qid": 5000620,
+      "row_hash": "255d30eb7a54bad961d16b525b987fcbb61245ccb44faaca23a046414f9b33eb",
+      "row_id": "train:01822"
+    },
+    {
+      "qid": 5000818,
+      "row_hash": "62581f641953e36c9574853f8de56a5ef9b055a25ac5bc1987a3b32a01a0f9a6",
+      "row_id": "train:01837"
+    },
+    {
+      "qid": 5000394,
+      "row_hash": "b40110f5210751c65e614b98189cd82c1c9f2e68a069e5bf7e4274a67d1d2916",
+      "row_id": "train:01848"
+    },
+    {
+      "qid": 5000165,
+      "row_hash": "01fd8b1f4f06575f12d55dd087c5c0ece8b567fa0b3a1572d27b46454136b62a",
+      "row_id": "train:01855"
+    },
+    {
+      "qid": 5000922,
+      "row_hash": "6f69e51df7701e0cdbb6ed417fdeb9a6033d35b5731ebf2a58bdf48fab2e924e",
+      "row_id": "train:01859"
+    },
+    {
+      "qid": 5000589,
+      "row_hash": "30123d635f9501eb889d1e9da1812f32cde4d6a595b0f74ea1251e793adf2ab3",
+      "row_id": "train:01865"
+    },
+    {
+      "qid": 5001127,
+      "row_hash": "380faa4e3b41cc10134aa89ae971ea7d2434cef0cf9ad91020f46d62f25dac78",
+      "row_id": "train:01870"
+    },
+    {
+      "qid": 5000520,
+      "row_hash": "aad3f01e184de9d37e6181889bc8583f99b7b520568fad90fd3b8b34ead236be",
+      "row_id": "train:01871"
+    },
+    {
+      "qid": 5000939,
+      "row_hash": "9b3f32124ecaf66ae5873e156ce11859b7288722115784d92f07bb61f7498de3",
+      "row_id": "train:01879"
+    },
+    {
+      "qid": 5000444,
+      "row_hash": "78450d07f51c50db1d819dd0de6f45a24babcd606847a14d86e4591857348699",
+      "row_id": "train:01884"
+    },
+    {
+      "qid": 5000246,
+      "row_hash": "ef3f4408b0962ff784f67f1183aa503110464e47b4a0b556fc4210824b3fb60f",
+      "row_id": "train:01897"
+    },
+    {
+      "qid": 5001036,
+      "row_hash": "c3eddd8fb012c964401f2f54e67a3016aec10a706e4dd41c19fbb95f0b5a8979",
+      "row_id": "train:01901"
+    },
+    {
+      "qid": 5000844,
+      "row_hash": "6fcd9eaf1c161225628fa9a2fa304d77c113cb4c55f1e926b34f38ec0b87dec9",
+      "row_id": "train:01929"
+    },
+    {
+      "qid": 5000705,
+      "row_hash": "19f571bba601bc375734fe4e3880b992ac5af65fca698974d130911d5a2ce929",
+      "row_id": "train:01936"
+    },
+    {
+      "qid": 5000198,
+      "row_hash": "d7075cdef8525887e441c5f323c7c265e12f12d0c2241404d188a0d3b89c72ed",
+      "row_id": "train:01946"
+    },
+    {
+      "qid": 5000970,
+      "row_hash": "b50ddca3a4bda08829ae0eb2712eab0fd57cf13da5890035e31d912bd84b0066",
+      "row_id": "train:01985"
+    },
+    {
+      "qid": 5001098,
+      "row_hash": "407478634e737541fd173634e2fde1164d08ecca98623b1bd5cd3c6670dd68fe",
+      "row_id": "train:01999"
+    },
+    {
+      "qid": 5000394,
+      "row_hash": "61bd80473c267ac4cfadba6e51d747b52f621882450ab1dc2192218d35df1340",
+      "row_id": "train:02022"
+    },
+    {
+      "qid": 5000182,
+      "row_hash": "21a7acab961581f918e9e3cd075327357726ec7cbdb51beff5095bd1c907c6ea",
+      "row_id": "train:02024"
+    },
+    {
+      "qid": 5000816,
+      "row_hash": "b33a31df8abea580d21bd2a380568340c27dc931c2833bd68b62e45de1b54cf6",
+      "row_id": "train:02030"
+    },
+    {
+      "qid": 5000287,
+      "row_hash": "66215f9ec250c034aba4b4b660017b33de3b06e56cdfe8c981a8d8724ef5daa6",
+      "row_id": "train:02035"
+    },
+    {
+      "qid": 5001113,
+      "row_hash": "b2f35a1e5ecc810aea64b6d26ce358e172f5282498b65cba27e8f686f31f8ec8",
+      "row_id": "train:02036"
+    },
+    {
+      "qid": 5000007,
+      "row_hash": "bc7b6aea08be72ae2ce20d64ab06bc1f3e6647397e3103cdf286e7f835ae3ad7",
+      "row_id": "train:02042"
+    },
+    {
+      "qid": 5000843,
+      "row_hash": "d29e618e1fd877218f84a72f5b6ce94d2d7ed8c31370c0f7f6e6f393448facf8",
+      "row_id": "train:02065"
+    },
+    {
+      "qid": 5000844,
+      "row_hash": "6043505b4f3dca9c703598c3bbd34b926e0f561e6a81949e72c207f9c4c7ea3b",
+      "row_id": "train:02135"
+    },
+    {
+      "qid": 5000430,
+      "row_hash": "8d886375144c5265a3ba2e5a64331d93786c95af90f261c8e54716aa32eccf7c",
+      "row_id": "train:02146"
+    },
+    {
+      "qid": 5000137,
+      "row_hash": "c6690a9d8132a85c016b02d3923c10266dfcf616c168015c8d3861fbcf35bf2a",
+      "row_id": "train:02159"
+    },
+    {
+      "qid": 5000430,
+      "row_hash": "128e5c759e78d2e8ed0479753688e652f82c2c53def6cc550b34292f8fcf6277",
+      "row_id": "train:02160"
+    },
+    {
+      "qid": 5000922,
+      "row_hash": "2af8fd71ddcf260f284e1db8350abdee2aa0db7eee21ae7f33d47072c39117f8",
+      "row_id": "train:02162"
+    },
+    {
+      "qid": 5000520,
+      "row_hash": "60d462dd3d256cea5d9535608f2b4fa574889451948c1125d02b5538a9857b9a",
+      "row_id": "train:02218"
+    },
+    {
+      "qid": 5000741,
+      "row_hash": "60e25a70b662ae9e591edce612078ea485b811a64bd01823a6057a53cdb56da4",
+      "row_id": "train:02219"
+    },
+    {
+      "qid": 5000803,
+      "row_hash": "4917567a05eaa0e3fd008a2e30b9d3a3bd2f1983956fa6bc12d023a5d1eba274",
+      "row_id": "train:02234"
+    },
+    {
+      "qid": 5000633,
+      "row_hash": "6aa855f89b01795355ab7cdb749685d78b7206ea8444392fb81f8780ce03d7da",
+      "row_id": "train:02247"
+    },
+    {
+      "qid": 5000309,
+      "row_hash": "5df087561eaba97f6b8a7bf6c2ed780b27cfd3d5188a40468110c7d3588aebcd",
+      "row_id": "train:02255"
+    }
+  ],
+  "seed": 0
+}

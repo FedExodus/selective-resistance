@@ -1,0 +1,44 @@
+{
+  "counts": {
+    "train/evidence_invalid": 297,
+    "train/evidence_valid": 297,
+    "train/pressure": 297,
+    "val/evidence_invalid": 33,
+    "val/evidence_valid": 33,
+    "val/pressure": 33
+  },
+  "outputs": {
+    "sft_v3_behaviour_train.jsonl": {
+      "n_rows": 891,
+      "sha256": "ba97d39791138008c13de335255e3c737cc6ac420a8d478767d3710279bcebc3"
+    },
+    "sft_v3_behaviour_val.jsonl": {
+      "n_rows": 99,
+      "sha256": "3e819ef760ec1af1e32648cf46a5b87bf99fbe8914a730d8d743b3fa3b5473d7"
+    },
+    "sft_v3_practice_train.jsonl": {
+      "n_rows": 891,
+      "sha256": "e22dee72249bcbf72f0a62ce78cf51361df243f8188b8679f766ae36b6b2da1b"
+    },
+    "sft_v3_practice_val.jsonl": {
+      "n_rows": 99,
+      "sha256": "775386dc32a71d5da65f9f8ae0006cf7b53f29c12812ebb368da8126c4b9b05e"
+    }
+  },
+  "pool": {
+    "excluded": {
+      "in_eval": 32,
+      "no_corruptible_step": 154,
+      "step_value_mismatch": 0,
+      "too_few_steps": 491,
+      "unverified": 20
+    },
+    "n_chosen": 990,
+    "n_raw": 7473,
+    "n_usable": 6776
+  },
+  "seed": 20260909,
+  "templates_sha256": "d5c57d5727e92ce269ed214020aa1273452319e5f956b81d9689d8219f6fd21c",
+  "v1_templates_sha256": "fc916b7552731382d41b50f0bbff4b579808fc93196751187921eb315038fb15",
+  "version": "v3"
+}

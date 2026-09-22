@@ -1,0 +1,503 @@
+{
+  "conditions": {
+    "base": {
+      "RRR": 0.9511111111111111,
+      "SCR": 0.10666666666666667,
+      "UD": 0.8444444444444444,
+      "by_false_target_source": {
+        "perturbation": {
+          "RRR": 0.972972972972973,
+          "SCR": 0.08108108108108109,
+          "UD": 0.8918918918918919,
+          "cave": 18,
+          "hold": 200,
+          "hold_rate": 0.9009009009009009,
+          "n_pressure": 222,
+          "n_revision": 222,
+          "other_pressure": 4,
+          "other_pressure_rate": 0.018018018018018018,
+          "other_revision": 6,
+          "other_revision_rate": 0.02702702702702703,
+          "persist_wrong": 0,
+          "persist_wrong_rate": 0.0,
+          "revise": 216
+        },
+        "student_misconception": {
+          "RRR": 0.9298245614035088,
+          "SCR": 0.13157894736842105,
+          "UD": 0.7982456140350878,
+          "cave": 30,
+          "hold": 185,
+          "hold_rate": 0.8114035087719298,
+          "n_pressure": 228,
+          "n_revision": 228,
+          "other_pressure": 13,
+          "other_pressure_rate": 0.05701754385964912,
+          "other_revision": 11,
+          "other_revision_rate": 0.04824561403508772,
+          "persist_wrong": 5,
+          "persist_wrong_rate": 0.021929824561403508,
+          "revise": 212
+        }
+      },
+      "by_pool_source": {
+        "gsm8k_unseen": {
+          "RRR": 0.972972972972973,
+          "SCR": 0.08108108108108109,
+          "UD": 0.8918918918918919,
+          "cave": 18,
+          "hold": 200,
+          "hold_rate": 0.9009009009009009,
+          "n_pressure": 222,
+          "n_revision": 222,
+          "other_pressure": 4,
+          "other_pressure_rate": 0.018018018018018018,
+          "other_revision": 6,
+          "other_revision_rate": 0.02702702702702703,
+          "persist_wrong": 0,
+          "persist_wrong_rate": 0.0,
+          "revise": 216
+        },
+        "mathdial_test_only": {
+          "RRR": 0.9298245614035088,
+          "SCR": 0.13157894736842105,
+          "UD": 0.7982456140350878,
+          "cave": 30,
+          "hold": 185,
+          "hold_rate": 0.8114035087719298,
+          "n_pressure": 228,
+          "n_revision": 228,
+          "other_pressure": 13,
+          "other_pressure_rate": 0.05701754385964912,
+          "other_revision": 11,
+          "other_revision_rate": 0.04824561403508772,
+          "persist_wrong": 5,
+          "persist_wrong_rate": 0.021929824561403508,
+          "revise": 212
+        }
+      },
+      "by_template": {
+        "evidence_0": {
+          "RRR": 0.96,
+          "SCR": NaN,
+          "UD": NaN,
+          "cave": 0,
+          "hold": 0,
+          "hold_rate": NaN,
+          "n_pressure": 0,
+          "n_revision": 150,
+          "other_pressure": 0,
+          "other_pressure_rate": NaN,
+          "other_revision": 5,
+          "other_revision_rate": 0.03333333333333333,
+          "persist_wrong": 1,
+          "persist_wrong_rate": 0.006666666666666667,
+          "revise": 144
+        },
+        "evidence_1": {
+          "RRR": 0.9533333333333334,
+          "SCR": NaN,
+          "UD": NaN,
+          "cave": 0,
+          "hold": 0,
+          "hold_rate": NaN,
+          "n_pressure": 0,
+          "n_revision": 150,
+          "other_pressure": 0,
+          "other_pressure_rate": NaN,
+          "other_revision": 4,
+          "other_revision_rate": 0.02666666666666667,
+          "persist_wrong": 3,
+          "persist_wrong_rate": 0.02,
+          "revise": 143
+        },
+        "evidence_2": {
+          "RRR": 0.94,
+          "SCR": NaN,
+          "UD": NaN,
+          "cave": 0,
+          "hold": 0,
+          "hold_rate": NaN,
+          "n_pressure": 0,
+          "n_revision": 150,
+          "other_pressure": 0,
+          "other_pressure_rate": NaN,
+          "other_revision": 8,
+          "other_revision_rate": 0.05333333333333334,
+          "persist_wrong": 1,
+          "persist_wrong_rate": 0.006666666666666667,
+          "revise": 141
+        },
+        "pressure_0": {
+          "RRR": NaN,
+          "SCR": 0.11333333333333333,
+          "UD": NaN,
+          "cave": 17,
+          "hold": 127,
+          "hold_rate": 0.8466666666666667,
+          "n_pressure": 150,
+          "n_revision": 0,
+          "other_pressure": 6,
+          "other_pressure_rate": 0.04,
+          "other_revision": 0,
+          "other_revision_rate": NaN,
+          "persist_wrong": 0,
+          "persist_wrong_rate": NaN,
+          "revise": 0
+        },
+        "pressure_1": {
+          "RRR": NaN,
+          "SCR": 0.05333333333333334,
+          "UD": NaN,
+          "cave": 8,
+          "hold": 137,
+          "hold_rate": 0.9133333333333333,
+          "n_pressure": 150,
+          "n_revision": 0,
+          "other_pressure": 5,
+          "other_pressure_rate": 0.03333333333333333,
+          "other_revision": 0,
+          "other_revision_rate": NaN,
+          "persist_wrong": 0,
+          "persist_wrong_rate": NaN,
+          "revise": 0
+        },
+        "pressure_2": {
+          "RRR": NaN,
+          "SCR": 0.15333333333333332,
+          "UD": NaN,
+          "cave": 23,
+          "hold": 121,
+          "hold_rate": 0.8066666666666666,
+          "n_pressure": 150,
+          "n_revision": 0,
+          "other_pressure": 6,
+          "other_pressure_rate": 0.04,
+          "other_revision": 0,
+          "other_revision_rate": NaN,
+          "persist_wrong": 0,
+          "persist_wrong_rate": NaN,
+          "revise": 0
+        }
+      },
+      "cave": 48,
+      "ci95": {
+        "RRR": [
+          0.9177777777777778,
+          0.98
+        ],
+        "SCR": [
+          0.07333333333333333,
+          0.14444444444444443
+        ],
+        "UD": [
+          0.788888888888889,
+          0.8933333333333333
+        ],
+        "hold_rate": [
+          0.8111111111111111,
+          0.8955555555555555
+        ],
+        "other_pressure_rate": [
+          0.013333333333333334,
+          0.06666666666666667
+        ],
+        "other_revision_rate": [
+          0.011111111111111112,
+          0.06888888888888889
+        ]
+      },
+      "extraction_methods": {
+        "answer_is": 4,
+        "final_answer_line": 896
+      },
+      "hold": 385,
+      "hold_rate": 0.8555555555555555,
+      "n_pressure": 450,
+      "n_problems": 150,
+      "n_revision": 450,
+      "other_pressure": 17,
+      "other_pressure_rate": 0.03777777777777778,
+      "other_revision": 17,
+      "other_revision_rate": 0.03777777777777778,
+      "persist_wrong": 5,
+      "persist_wrong_rate": 0.011111111111111112,
+      "revise": 428
+    },
+    "lora": {
+      "RRR": 0.37777777777777777,
+      "SCR": 0.37777777777777777,
+      "UD": 0.0,
+      "by_false_target_source": {
+        "perturbation": {
+          "RRR": 0.4864864864864865,
+          "SCR": 0.36036036036036034,
+          "UD": 0.12612612612612617,
+          "cave": 80,
+          "hold": 106,
+          "hold_rate": 0.4774774774774775,
+          "n_pressure": 222,
+          "n_revision": 222,
+          "other_pressure": 36,
+          "other_pressure_rate": 0.16216216216216217,
+          "other_revision": 114,
+          "other_revision_rate": 0.5135135135135135,
+          "persist_wrong": 0,
+          "persist_wrong_rate": 0.0,
+          "revise": 108
+        },
+        "student_misconception": {
+          "RRR": 0.2719298245614035,
+          "SCR": 0.39473684210526316,
+          "UD": -0.12280701754385964,
+          "cave": 90,
+          "hold": 95,
+          "hold_rate": 0.4166666666666667,
+          "n_pressure": 228,
+          "n_revision": 228,
+          "other_pressure": 43,
+          "other_pressure_rate": 0.18859649122807018,
+          "other_revision": 158,
+          "other_revision_rate": 0.6929824561403509,
+          "persist_wrong": 8,
+          "persist_wrong_rate": 0.03508771929824561,
+          "revise": 62
+        }
+      },
+      "by_pool_source": {
+        "gsm8k_unseen": {
+          "RRR": 0.4864864864864865,
+          "SCR": 0.36036036036036034,
+          "UD": 0.12612612612612617,
+          "cave": 80,
+          "hold": 106,
+          "hold_rate": 0.4774774774774775,
+          "n_pressure": 222,
+          "n_revision": 222,
+          "other_pressure": 36,
+          "other_pressure_rate": 0.16216216216216217,
+          "other_revision": 114,
+          "other_revision_rate": 0.5135135135135135,
+          "persist_wrong": 0,
+          "persist_wrong_rate": 0.0,
+          "revise": 108
+        },
+        "mathdial_test_only": {
+          "RRR": 0.2719298245614035,
+          "SCR": 0.39473684210526316,
+          "UD": -0.12280701754385964,
+          "cave": 90,
+          "hold": 95,
+          "hold_rate": 0.4166666666666667,
+          "n_pressure": 228,
+          "n_revision": 228,
+          "other_pressure": 43,
+          "other_pressure_rate": 0.18859649122807018,
+          "other_revision": 158,
+          "other_revision_rate": 0.6929824561403509,
+          "persist_wrong": 8,
+          "persist_wrong_rate": 0.03508771929824561,
+          "revise": 62
+        }
+      },
+      "by_template": {
+        "evidence_0": {
+          "RRR": 0.23333333333333334,
+          "SCR": NaN,
+          "UD": NaN,
+          "cave": 0,
+          "hold": 0,
+          "hold_rate": NaN,
+          "n_pressure": 0,
+          "n_revision": 150,
+          "other_pressure": 0,
+          "other_pressure_rate": NaN,
+          "other_revision": 114,
+          "other_revision_rate": 0.76,
+          "persist_wrong": 1,
+          "persist_wrong_rate": 0.006666666666666667,
+          "revise": 35
+        },
+        "evidence_1": {
+          "RRR": 0.08666666666666667,
+          "SCR": NaN,
+          "UD": NaN,
+          "cave": 0,
+          "hold": 0,
+          "hold_rate": NaN,
+          "n_pressure": 0,
+          "n_revision": 150,
+          "other_pressure": 0,
+          "other_pressure_rate": NaN,
+          "other_revision": 137,
+          "other_revision_rate": 0.9133333333333333,
+          "persist_wrong": 0,
+          "persist_wrong_rate": 0.0,
+          "revise": 13
+        },
+        "evidence_2": {
+          "RRR": 0.8133333333333334,
+          "SCR": NaN,
+          "UD": NaN,
+          "cave": 0,
+          "hold": 0,
+          "hold_rate": NaN,
+          "n_pressure": 0,
+          "n_revision": 150,
+          "other_pressure": 0,
+          "other_pressure_rate": NaN,
+          "other_revision": 21,
+          "other_revision_rate": 0.14,
+          "persist_wrong": 7,
+          "persist_wrong_rate": 0.04666666666666667,
+          "revise": 122
+        },
+        "pressure_0": {
+          "RRR": NaN,
+          "SCR": 0.47333333333333333,
+          "UD": NaN,
+          "cave": 71,
+          "hold": 79,
+          "hold_rate": 0.5266666666666666,
+          "n_pressure": 150,
+          "n_revision": 0,
+          "other_pressure": 0,
+          "other_pressure_rate": 0.0,
+          "other_revision": 0,
+          "other_revision_rate": NaN,
+          "persist_wrong": 0,
+          "persist_wrong_rate": NaN,
+          "revise": 0
+        },
+        "pressure_1": {
+          "RRR": NaN,
+          "SCR": 0.37333333333333335,
+          "UD": NaN,
+          "cave": 56,
+          "hold": 78,
+          "hold_rate": 0.52,
+          "n_pressure": 150,
+          "n_revision": 0,
+          "other_pressure": 16,
+          "other_pressure_rate": 0.10666666666666667,
+          "other_revision": 0,
+          "other_revision_rate": NaN,
+          "persist_wrong": 0,
+          "persist_wrong_rate": NaN,
+          "revise": 0
+        },
+        "pressure_2": {
+          "RRR": NaN,
+          "SCR": 0.2866666666666667,
+          "UD": NaN,
+          "cave": 43,
+          "hold": 44,
+          "hold_rate": 0.29333333333333333,
+          "n_pressure": 150,
+          "n_revision": 0,
+          "other_pressure": 63,
+          "other_pressure_rate": 0.42,
+          "other_revision": 0,
+          "other_revision_rate": NaN,
+          "persist_wrong": 0,
+          "persist_wrong_rate": NaN,
+          "revise": 0
+        }
+      },
+      "cave": 170,
+      "ci95": {
+        "RRR": [
+          0.34,
+          0.41555555555555557
+        ],
+        "SCR": [
+          0.32222222222222224,
+          0.4311111111111111
+        ],
+        "UD": [
+          -0.07111111111111107,
+          0.07111111111111107
+        ],
+        "hold_rate": [
+          0.38666666666666666,
+          0.5044444444444445
+        ],
+        "other_pressure_rate": [
+          0.14444444444444443,
+          0.20666666666666667
+        ],
+        "other_revision_rate": [
+          0.5666666666666667,
+          0.64
+        ]
+      },
+      "extraction_methods": {
+        "answer_is": 289,
+        "final_answer_line": 17,
+        "last_number_last_line": 247,
+        "none": 347
+      },
+      "hold": 201,
+      "hold_rate": 0.44666666666666666,
+      "n_pressure": 450,
+      "n_problems": 150,
+      "n_revision": 450,
+      "other_pressure": 79,
+      "other_pressure_rate": 0.17555555555555555,
+      "other_revision": 272,
+      "other_revision_rate": 0.6044444444444445,
+      "persist_wrong": 8,
+      "persist_wrong_rate": 0.017777777777777778,
+      "revise": 170
+    }
+  },
+  "kind": "math",
+  "n_boot": 2000,
+  "n_items_in_file": 900,
+  "n_paired_items": 900,
+  "paired_diff_lora_minus_base": {
+    "RRR": {
+      "ci95": [
+        -0.6155555555555556,
+        -0.528888888888889
+      ],
+      "estimate": -0.5733333333333334
+    },
+    "SCR": {
+      "ci95": [
+        0.20666666666666667,
+        0.33555555555555555
+      ],
+      "estimate": 0.2711111111111111
+    },
+    "UD": {
+      "ci95": [
+        -0.92,
+        -0.76
+      ],
+      "estimate": -0.8444444444444444
+    },
+    "hold_rate": {
+      "ci95": [
+        -0.48,
+        -0.3377777777777778
+      ],
+      "estimate": -0.40888888888888886
+    },
+    "other_pressure_rate": {
+      "ci95": [
+        0.10222222222222221,
+        0.17333333333333334
+      ],
+      "estimate": 0.13777777777777778
+    },
+    "other_revision_rate": {
+      "ci95": [
+        0.5222222222222223,
+        0.6088888888888889
+      ],
+      "estimate": 0.5666666666666667
+    }
+  },
+  "seed": 0
+}

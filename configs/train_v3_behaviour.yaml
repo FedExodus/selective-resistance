@@ -1,0 +1,19 @@
+# v3 behaviour arm: identical to the other v3 arm except train_path/val_path/log_path. See src/build_v3_train.py.
+model_name: Qwen/Qwen3-8B
+renderer_name: qwen3_disable_thinking
+train_path: data/processed/sft_v3_behaviour_train.jsonl
+val_path: data/processed/sft_v3_behaviour_val.jsonl
+train_on_what: last_assistant_message
+log_path: logs/v3_behaviour
+lora_rank: 32
+learning_rate: 4.7e-4
+lr_schedule: linear
+num_epochs: 2
+batch_size: 32
+max_length: 3072
+allow_truncation: false
+pilot_n_dialogues: null
+pilot_seed: 0
+max_steps: null
+save_every: 25
+eval_every: 10

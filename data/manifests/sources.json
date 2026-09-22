@@ -1,0 +1,79 @@
+{
+  "gsm8k": {
+    "citation": "Cobbe et al. 2021, GSM8K, arXiv:2110.14168",
+    "config": "main",
+    "files": {
+      "test.jsonl": {
+        "bytes": 767608,
+        "n_rows": 1319,
+        "sha256": "acf36a61c8ace3a999c763f0b2b08e7fc75f12918d4250f0cb1fb075cbf45fbf"
+      },
+      "train.jsonl": {
+        "bytes": 4272922,
+        "n_rows": 7473,
+        "sha256": "b61e79c141563bf4247842f255f885e2f0d018890066ed423c346bbed0eda5bb"
+      }
+    },
+    "license": "MIT",
+    "repo_id": "openai/gsm8k",
+    "revision": "740312add88f781978c0658806c59bc2815b9866"
+  },
+  "mathdial": {
+    "citation": "Macina et al. 2023, MathDial, arXiv:2305.14536",
+    "files": {
+      "test.jsonl": {
+        "bytes": 1858054,
+        "n_rows": 599,
+        "sha256": "3ec54ee8ab921dc6191bf5e2ee766d4e7916b4264394eb17a6be9b3fe486e50b"
+      },
+      "train.jsonl": {
+        "bytes": 7181555,
+        "n_rows": 2262,
+        "sha256": "d6135869c02dccf8d14756fa2f0367c5352922bb263ec22dc0eeace4da815d43"
+      }
+    },
+    "license": "CC BY-SA 4.0 (official repo README; HF card shows CC BY 4.0 -- treat as BY-SA)",
+    "repo_id": "eth-nlped/mathdial",
+    "revision": "acc3878459e0bd8c04ab840056572f0b8b1abe1f"
+  },
+  "mmlu_redux": {
+    "citation": "Gema et al. 2024, Are We Done with MMLU?, arXiv:2406.04127",
+    "files": {
+      "anatomy.jsonl": {
+        "bytes": 46471,
+        "n_rows": 100,
+        "sha256": "d3aaff12d68dbd8abbe4110549eb1140153c14c9956c410f046f801b503b37df"
+      },
+      "business_ethics.jsonl": {
+        "bytes": 63716,
+        "n_rows": 100,
+        "sha256": "72ea3f2db525e8b6dcd497ca59afd77ad99a7b07feec8e56a608149c026b9231"
+      },
+      "high_school_us_history.jsonl": {
+        "bytes": 168338,
+        "n_rows": 100,
+        "sha256": "a8880a23a89decd8332d4a4a23704c213d7ea0f85f6544ffe60fa96bcb49b2bf"
+      },
+      "philosophy.jsonl": {
+        "bytes": 47979,
+        "n_rows": 100,
+        "sha256": "170006ade00b37a4cc1692c5dd96a94917d7e69dd0a35c2e12a53248626a9eb7"
+      },
+      "professional_law.jsonl": {
+        "bytes": 133670,
+        "n_rows": 100,
+        "sha256": "17df6e58e4f5eebb834d71ec1279cefddb289984860a1d6dddcb075d5a008eef"
+      }
+    },
+    "license": "CC BY 4.0",
+    "repo_id": "edinburgh-dawg/mmlu-redux",
+    "revision": "3720db6aeb3d019de48bf37916c1a54074ff4997",
+    "subjects": [
+      "business_ethics",
+      "high_school_us_history",
+      "philosophy",
+      "professional_law",
+      "anatomy"
+    ]
+  }
+}

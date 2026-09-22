@@ -1,0 +1,67 @@
+{
+  "checkpoints": [
+    {
+      "batch": 25,
+      "elapsed_tokens": 255838,
+      "epoch": 0,
+      "name": "000025",
+      "sampler_path": "tinker://2a2915fc-08f9-53d5-afe6-ddd38032871d:train:0/sampler_weights/000025",
+      "state_path": "tinker://2a2915fc-08f9-53d5-afe6-ddd38032871d:train:0/weights/000025"
+    },
+    {
+      "batch": 23,
+      "elapsed_tokens": 503681,
+      "epoch": 1,
+      "name": "000050",
+      "sampler_path": "tinker://2a2915fc-08f9-53d5-afe6-ddd38032871d:train:0/sampler_weights/000050",
+      "state_path": "tinker://2a2915fc-08f9-53d5-afe6-ddd38032871d:train:0/weights/000050"
+    },
+    {
+      "batch": 0,
+      "elapsed_tokens": 532644,
+      "epoch": 2,
+      "name": "final",
+      "sampler_path": "tinker://2a2915fc-08f9-53d5-afe6-ddd38032871d:train:0/sampler_weights/final",
+      "state_path": "tinker://2a2915fc-08f9-53d5-afe6-ddd38032871d:train:0/weights/final"
+    }
+  ],
+  "config": {
+    "allow_truncation": false,
+    "batch_size": 32,
+    "eval_every": 10,
+    "learning_rate": 0.00047,
+    "log_path": "./logs/v3_behaviour",
+    "lora_rank": 32,
+    "lr_schedule": "linear",
+    "max_length": 3072,
+    "max_steps": null,
+    "model_name": "Qwen/Qwen3-8B",
+    "num_epochs": 2,
+    "pilot_n_dialogues": null,
+    "pilot_seed": 0,
+    "renderer_name": "qwen3_disable_thinking",
+    "save_every": 25,
+    "train_on_what": "last_assistant_message",
+    "train_path": "./data/processed/sft_v3_behaviour_train.jsonl",
+    "val_path": "./data/processed/sft_v3_behaviour_val.jsonl"
+  },
+  "data": {
+    "train_path": {
+      "path": "./data/processed/sft_v3_behaviour_train.jsonl",
+      "sha256": "ba97d39791138008c13de335255e3c737cc6ac420a8d478767d3710279bcebc3"
+    },
+    "val_path": {
+      "path": "./data/processed/sft_v3_behaviour_val.jsonl",
+      "sha256": "3e819ef760ec1af1e32648cf46a5b87bf99fbe8914a730d8d743b3fa3b5473d7"
+    }
+  },
+  "finished": "2026-09-08T21:02:34.449255+00:00",
+  "resumed": false,
+  "run_name": "train_v3_behaviour",
+  "versions": {
+    "datasets": "5.0.1",
+    "tinker": "0.27.1",
+    "tinker-cookbook": "0.5.7",
+    "transformers": "5.5.4"
+  }
+}

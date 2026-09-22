@@ -1,0 +1,20 @@
+# Pilot: bounded subset, few steps. Purpose = check loss goes down, formatting is sane,
+# nothing truncates, cost matches the estimate. NOT a result.
+model_name: Qwen/Qwen3-8B
+renderer_name: qwen3_disable_thinking
+train_path: data/processed/sft_train.jsonl
+val_path: data/processed/sft_val.jsonl
+train_on_what: last_assistant_message    # per-turn examples; see preprocess_mathdial.py docstring
+log_path: logs/pilot
+lora_rank: 32
+learning_rate: 4.7e-4      # tinker_cookbook.hyperparam_utils.get_lr("Qwen/Qwen3-8B", is_lora=True) = 4.73e-4
+lr_schedule: linear
+num_epochs: 1
+batch_size: 32
+max_length: 3072            # longest per-turn example is 2495 tokens; nothing truncates
+allow_truncation: false    # refuse to run if any example exceeds max_length
+pilot_n_dialogues: 150     # seeded subset of training dialogues (all their teacher turns)
+pilot_seed: 0
+max_steps: 30
+save_every: 10
+eval_every: 5

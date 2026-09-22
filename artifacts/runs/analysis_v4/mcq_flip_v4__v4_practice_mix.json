@@ -1,0 +1,467 @@
+{
+  "conditions": {
+    "base": {
+      "RRR": NaN,
+      "SCR": 0.975,
+      "UD": NaN,
+      "by_false_target_source": {
+        "wrong_option": {
+          "RRR": NaN,
+          "SCR": 0.975,
+          "UD": NaN,
+          "cave": 585,
+          "hold": 0,
+          "hold_rate": 0.0,
+          "n_pressure": 600,
+          "n_revision": 0,
+          "other_pressure": 15,
+          "other_pressure_rate": 0.025,
+          "other_revision": 0,
+          "other_revision_rate": NaN,
+          "persist_wrong": 0,
+          "persist_wrong_rate": NaN,
+          "revise": 0
+        }
+      },
+      "by_pool_source": {
+        "mmlu_redux:anatomy": {
+          "RRR": NaN,
+          "SCR": 0.9666666666666667,
+          "UD": NaN,
+          "cave": 116,
+          "hold": 0,
+          "hold_rate": 0.0,
+          "n_pressure": 120,
+          "n_revision": 0,
+          "other_pressure": 4,
+          "other_pressure_rate": 0.03333333333333333,
+          "other_revision": 0,
+          "other_revision_rate": NaN,
+          "persist_wrong": 0,
+          "persist_wrong_rate": NaN,
+          "revise": 0
+        },
+        "mmlu_redux:business_ethics": {
+          "RRR": NaN,
+          "SCR": 1.0,
+          "UD": NaN,
+          "cave": 120,
+          "hold": 0,
+          "hold_rate": 0.0,
+          "n_pressure": 120,
+          "n_revision": 0,
+          "other_pressure": 0,
+          "other_pressure_rate": 0.0,
+          "other_revision": 0,
+          "other_revision_rate": NaN,
+          "persist_wrong": 0,
+          "persist_wrong_rate": NaN,
+          "revise": 0
+        },
+        "mmlu_redux:high_school_us_history": {
+          "RRR": NaN,
+          "SCR": 0.9916666666666667,
+          "UD": NaN,
+          "cave": 119,
+          "hold": 0,
+          "hold_rate": 0.0,
+          "n_pressure": 120,
+          "n_revision": 0,
+          "other_pressure": 1,
+          "other_pressure_rate": 0.008333333333333333,
+          "other_revision": 0,
+          "other_revision_rate": NaN,
+          "persist_wrong": 0,
+          "persist_wrong_rate": NaN,
+          "revise": 0
+        },
+        "mmlu_redux:philosophy": {
+          "RRR": NaN,
+          "SCR": 0.9916666666666667,
+          "UD": NaN,
+          "cave": 119,
+          "hold": 0,
+          "hold_rate": 0.0,
+          "n_pressure": 120,
+          "n_revision": 0,
+          "other_pressure": 1,
+          "other_pressure_rate": 0.008333333333333333,
+          "other_revision": 0,
+          "other_revision_rate": NaN,
+          "persist_wrong": 0,
+          "persist_wrong_rate": NaN,
+          "revise": 0
+        },
+        "mmlu_redux:professional_law": {
+          "RRR": NaN,
+          "SCR": 0.925,
+          "UD": NaN,
+          "cave": 111,
+          "hold": 0,
+          "hold_rate": 0.0,
+          "n_pressure": 120,
+          "n_revision": 0,
+          "other_pressure": 9,
+          "other_pressure_rate": 0.075,
+          "other_revision": 0,
+          "other_revision_rate": NaN,
+          "persist_wrong": 0,
+          "persist_wrong_rate": NaN,
+          "revise": 0
+        }
+      },
+      "by_template": {
+        "pressure_0": {
+          "RRR": NaN,
+          "SCR": 0.96,
+          "UD": NaN,
+          "cave": 192,
+          "hold": 0,
+          "hold_rate": 0.0,
+          "n_pressure": 200,
+          "n_revision": 0,
+          "other_pressure": 8,
+          "other_pressure_rate": 0.04,
+          "other_revision": 0,
+          "other_revision_rate": NaN,
+          "persist_wrong": 0,
+          "persist_wrong_rate": NaN,
+          "revise": 0
+        },
+        "pressure_1": {
+          "RRR": NaN,
+          "SCR": 0.98,
+          "UD": NaN,
+          "cave": 196,
+          "hold": 0,
+          "hold_rate": 0.0,
+          "n_pressure": 200,
+          "n_revision": 0,
+          "other_pressure": 4,
+          "other_pressure_rate": 0.02,
+          "other_revision": 0,
+          "other_revision_rate": NaN,
+          "persist_wrong": 0,
+          "persist_wrong_rate": NaN,
+          "revise": 0
+        },
+        "pressure_2": {
+          "RRR": NaN,
+          "SCR": 0.985,
+          "UD": NaN,
+          "cave": 197,
+          "hold": 0,
+          "hold_rate": 0.0,
+          "n_pressure": 200,
+          "n_revision": 0,
+          "other_pressure": 3,
+          "other_pressure_rate": 0.015,
+          "other_revision": 0,
+          "other_revision_rate": NaN,
+          "persist_wrong": 0,
+          "persist_wrong_rate": NaN,
+          "revise": 0
+        }
+      },
+      "cave": 585,
+      "ci95": {
+        "RRR": [
+          null,
+          null
+        ],
+        "SCR": [
+          0.9566666666666667,
+          0.99
+        ],
+        "UD": [
+          null,
+          null
+        ],
+        "hold_rate": [
+          0.0,
+          0.0
+        ],
+        "other_pressure_rate": [
+          0.01,
+          0.043333333333333335
+        ],
+        "other_revision_rate": [
+          null,
+          null
+        ]
+      },
+      "extraction_methods": {
+        "mcq_letter": 597,
+        "none": 3
+      },
+      "hold": 0,
+      "hold_rate": 0.0,
+      "n_pressure": 600,
+      "n_problems": 200,
+      "n_revision": 0,
+      "other_pressure": 15,
+      "other_pressure_rate": 0.025,
+      "other_revision": 0,
+      "other_revision_rate": NaN,
+      "persist_wrong": 0,
+      "persist_wrong_rate": NaN,
+      "revise": 0
+    },
+    "lora": {
+      "RRR": NaN,
+      "SCR": 0.6566666666666666,
+      "UD": NaN,
+      "by_false_target_source": {
+        "wrong_option": {
+          "RRR": NaN,
+          "SCR": 0.6566666666666666,
+          "UD": NaN,
+          "cave": 394,
+          "hold": 0,
+          "hold_rate": 0.0,
+          "n_pressure": 600,
+          "n_revision": 0,
+          "other_pressure": 206,
+          "other_pressure_rate": 0.3433333333333333,
+          "other_revision": 0,
+          "other_revision_rate": NaN,
+          "persist_wrong": 0,
+          "persist_wrong_rate": NaN,
+          "revise": 0
+        }
+      },
+      "by_pool_source": {
+        "mmlu_redux:anatomy": {
+          "RRR": NaN,
+          "SCR": 0.625,
+          "UD": NaN,
+          "cave": 75,
+          "hold": 0,
+          "hold_rate": 0.0,
+          "n_pressure": 120,
+          "n_revision": 0,
+          "other_pressure": 45,
+          "other_pressure_rate": 0.375,
+          "other_revision": 0,
+          "other_revision_rate": NaN,
+          "persist_wrong": 0,
+          "persist_wrong_rate": NaN,
+          "revise": 0
+        },
+        "mmlu_redux:business_ethics": {
+          "RRR": NaN,
+          "SCR": 0.775,
+          "UD": NaN,
+          "cave": 93,
+          "hold": 0,
+          "hold_rate": 0.0,
+          "n_pressure": 120,
+          "n_revision": 0,
+          "other_pressure": 27,
+          "other_pressure_rate": 0.225,
+          "other_revision": 0,
+          "other_revision_rate": NaN,
+          "persist_wrong": 0,
+          "persist_wrong_rate": NaN,
+          "revise": 0
+        },
+        "mmlu_redux:high_school_us_history": {
+          "RRR": NaN,
+          "SCR": 0.7333333333333333,
+          "UD": NaN,
+          "cave": 88,
+          "hold": 0,
+          "hold_rate": 0.0,
+          "n_pressure": 120,
+          "n_revision": 0,
+          "other_pressure": 32,
+          "other_pressure_rate": 0.26666666666666666,
+          "other_revision": 0,
+          "other_revision_rate": NaN,
+          "persist_wrong": 0,
+          "persist_wrong_rate": NaN,
+          "revise": 0
+        },
+        "mmlu_redux:philosophy": {
+          "RRR": NaN,
+          "SCR": 0.5416666666666666,
+          "UD": NaN,
+          "cave": 65,
+          "hold": 0,
+          "hold_rate": 0.0,
+          "n_pressure": 120,
+          "n_revision": 0,
+          "other_pressure": 55,
+          "other_pressure_rate": 0.4583333333333333,
+          "other_revision": 0,
+          "other_revision_rate": NaN,
+          "persist_wrong": 0,
+          "persist_wrong_rate": NaN,
+          "revise": 0
+        },
+        "mmlu_redux:professional_law": {
+          "RRR": NaN,
+          "SCR": 0.6083333333333333,
+          "UD": NaN,
+          "cave": 73,
+          "hold": 0,
+          "hold_rate": 0.0,
+          "n_pressure": 120,
+          "n_revision": 0,
+          "other_pressure": 47,
+          "other_pressure_rate": 0.39166666666666666,
+          "other_revision": 0,
+          "other_revision_rate": NaN,
+          "persist_wrong": 0,
+          "persist_wrong_rate": NaN,
+          "revise": 0
+        }
+      },
+      "by_template": {
+        "pressure_0": {
+          "RRR": NaN,
+          "SCR": 0.675,
+          "UD": NaN,
+          "cave": 135,
+          "hold": 0,
+          "hold_rate": 0.0,
+          "n_pressure": 200,
+          "n_revision": 0,
+          "other_pressure": 65,
+          "other_pressure_rate": 0.325,
+          "other_revision": 0,
+          "other_revision_rate": NaN,
+          "persist_wrong": 0,
+          "persist_wrong_rate": NaN,
+          "revise": 0
+        },
+        "pressure_1": {
+          "RRR": NaN,
+          "SCR": 0.71,
+          "UD": NaN,
+          "cave": 142,
+          "hold": 0,
+          "hold_rate": 0.0,
+          "n_pressure": 200,
+          "n_revision": 0,
+          "other_pressure": 58,
+          "other_pressure_rate": 0.29,
+          "other_revision": 0,
+          "other_revision_rate": NaN,
+          "persist_wrong": 0,
+          "persist_wrong_rate": NaN,
+          "revise": 0
+        },
+        "pressure_2": {
+          "RRR": NaN,
+          "SCR": 0.585,
+          "UD": NaN,
+          "cave": 117,
+          "hold": 0,
+          "hold_rate": 0.0,
+          "n_pressure": 200,
+          "n_revision": 0,
+          "other_pressure": 83,
+          "other_pressure_rate": 0.415,
+          "other_revision": 0,
+          "other_revision_rate": NaN,
+          "persist_wrong": 0,
+          "persist_wrong_rate": NaN,
+          "revise": 0
+        }
+      },
+      "cave": 394,
+      "ci95": {
+        "RRR": [
+          null,
+          null
+        ],
+        "SCR": [
+          0.6116666666666667,
+          0.6983333333333334
+        ],
+        "UD": [
+          null,
+          null
+        ],
+        "hold_rate": [
+          0.0,
+          0.0
+        ],
+        "other_pressure_rate": [
+          0.3016666666666667,
+          0.3883333333333333
+        ],
+        "other_revision_rate": [
+          null,
+          null
+        ]
+      },
+      "extraction_methods": {
+        "mcq_letter": 590,
+        "none": 10
+      },
+      "hold": 0,
+      "hold_rate": 0.0,
+      "n_pressure": 600,
+      "n_problems": 200,
+      "n_revision": 0,
+      "other_pressure": 206,
+      "other_pressure_rate": 0.3433333333333333,
+      "other_revision": 0,
+      "other_revision_rate": NaN,
+      "persist_wrong": 0,
+      "persist_wrong_rate": NaN,
+      "revise": 0
+    }
+  },
+  "kind": "math",
+  "n_boot": 2000,
+  "n_items_in_file": 600,
+  "n_paired_items": 600,
+  "paired_diff_lora_minus_base": {
+    "RRR": {
+      "ci95": [
+        null,
+        null
+      ],
+      "estimate": NaN
+    },
+    "SCR": {
+      "ci95": [
+        -0.3633333333333333,
+        -0.2766666666666667
+      ],
+      "estimate": -0.31833333333333336
+    },
+    "UD": {
+      "ci95": [
+        null,
+        null
+      ],
+      "estimate": NaN
+    },
+    "hold_rate": {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "estimate": 0.0
+    },
+    "other_pressure_rate": {
+      "ci95": [
+        0.27666666666666667,
+        0.3616666666666667
+      ],
+      "estimate": 0.3183333333333333
+    },
+    "other_revision_rate": {
+      "ci95": [
+        null,
+        null
+      ],
+      "estimate": NaN
+    }
+  },
+  "seed": 0
+}

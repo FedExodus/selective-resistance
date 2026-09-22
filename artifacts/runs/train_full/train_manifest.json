@@ -1,0 +1,91 @@
+{
+  "checkpoints": [
+    {
+      "batch": 50,
+      "elapsed_tokens": 1742784,
+      "epoch": 0,
+      "name": "000050",
+      "sampler_path": "tinker://9f22da2d-1367-5dcc-887a-abb64d4ae147:train:0/sampler_weights/000050",
+      "state_path": "tinker://9f22da2d-1367-5dcc-887a-abb64d4ae147:train:0/weights/000050"
+    },
+    {
+      "batch": 100,
+      "elapsed_tokens": 3463534,
+      "epoch": 0,
+      "name": "000100",
+      "sampler_path": "tinker://9f22da2d-1367-5dcc-887a-abb64d4ae147:train:0/sampler_weights/000100",
+      "state_path": "tinker://9f22da2d-1367-5dcc-887a-abb64d4ae147:train:0/weights/000100"
+    },
+    {
+      "batch": 100,
+      "elapsed_tokens": 3498022,
+      "epoch": 0,
+      "name": "000100",
+      "sampler_path": "tinker://e7a5b02a-efb5-52e7-b882-daf82a332ada:train:0/sampler_weights/000100",
+      "state_path": "tinker://e7a5b02a-efb5-52e7-b882-daf82a332ada:train:0/weights/000100"
+    },
+    {
+      "batch": 150,
+      "elapsed_tokens": 5226266,
+      "epoch": 0,
+      "name": "000150",
+      "sampler_path": "tinker://e7a5b02a-efb5-52e7-b882-daf82a332ada:train:0/sampler_weights/000150",
+      "state_path": "tinker://e7a5b02a-efb5-52e7-b882-daf82a332ada:train:0/weights/000150"
+    },
+    {
+      "batch": 200,
+      "elapsed_tokens": 6912278,
+      "epoch": 0,
+      "name": "000200",
+      "sampler_path": "tinker://e7a5b02a-efb5-52e7-b882-daf82a332ada:train:0/sampler_weights/000200",
+      "state_path": "tinker://e7a5b02a-efb5-52e7-b882-daf82a332ada:train:0/weights/000200"
+    },
+    {
+      "batch": 0,
+      "elapsed_tokens": 7017368,
+      "epoch": 1,
+      "name": "final",
+      "sampler_path": "tinker://e7a5b02a-efb5-52e7-b882-daf82a332ada:train:0/sampler_weights/final",
+      "state_path": "tinker://e7a5b02a-efb5-52e7-b882-daf82a332ada:train:0/weights/final"
+    }
+  ],
+  "config": {
+    "allow_truncation": false,
+    "batch_size": 64,
+    "eval_every": 25,
+    "learning_rate": 0.00047,
+    "log_path": "./logs/full",
+    "lora_rank": 32,
+    "lr_schedule": "linear",
+    "max_length": 3072,
+    "max_steps": null,
+    "model_name": "Qwen/Qwen3-8B",
+    "num_epochs": 1,
+    "pilot_n_dialogues": null,
+    "pilot_seed": 0,
+    "renderer_name": "qwen3_disable_thinking",
+    "save_every": 50,
+    "train_on_what": "last_assistant_message",
+    "train_path": "./data/processed/sft_train.jsonl",
+    "val_path": "./data/processed/sft_val.jsonl"
+  },
+  "data": {
+    "train_path": {
+      "path": "./data/processed/sft_train.jsonl",
+      "sha256": "4dfcb7686b1dff783e7bd568775697e9845c568cbb57ddcb8c46b97ed863f56e"
+    },
+    "val_path": {
+      "path": "./data/processed/sft_val.jsonl",
+      "sha256": "8331038ed4343bf71fee0e22ef4931bcaec2e1f29e50a04357949c64437d04ab"
+    }
+  },
+  "finished": "2026-09-08T17:02:28.280708+00:00",
+  "resumed": true,
+  "run_name": "train_full",
+  "versions": {
+    "datasets": "5.0.1",
+    "tinker": "0.27.1",
+    "tinker-cookbook": "0.5.7",
+    "transformers": "5.5.4"
+  }
+}

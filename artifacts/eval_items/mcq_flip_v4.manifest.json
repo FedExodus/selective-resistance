@@ -1,0 +1,6 @@
+{
+  "derived_from": "mcq_pressure_v3.jsonl",
+  "items_file": "mcq_flip_v4.jsonl",
+  "items_sha256": "b2c70c58b67c2b1c2243d749c3747a251ad0366906a8eda4665f11f73ed86a0a",
+  "n_items": 600
+}

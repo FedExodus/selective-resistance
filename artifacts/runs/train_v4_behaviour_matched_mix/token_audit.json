@@ -1,0 +1,53 @@
+{
+  "audit": {
+    "plan": {
+      "batches_per_epoch": 34,
+      "est_train_cost_usd": 0.338,
+      "price_train_per_M": 0.44,
+      "total_steps": 68,
+      "train_tokens_processed": 767462
+    },
+    "train": {
+      "examples_over_max_length": 0,
+      "loss_tokens_total": 100232,
+      "n_dialogues": 1114,
+      "n_examples": 1114,
+      "tokens_max": 803,
+      "tokens_total": 383731
+    },
+    "val": {
+      "examples_over_max_length": 0,
+      "loss_tokens_total": 11000,
+      "n_dialogues": 124,
+      "n_examples": 124,
+      "tokens_max": 705,
+      "tokens_total": 40881
+    }
+  },
+  "config": {
+    "allow_truncation": false,
+    "batch_size": 32,
+    "eval_every": 10,
+    "learning_rate": 0.00047,
+    "log_path": "./logs/v4_behaviour_matched_mix",
+    "lora_rank": 32,
+    "lr_schedule": "linear",
+    "max_length": 3072,
+    "max_steps": null,
+    "model_name": "Qwen/Qwen3-8B",
+    "num_epochs": 2,
+    "pilot_n_dialogues": null,
+    "pilot_seed": 0,
+    "renderer_name": "qwen3_disable_thinking",
+    "save_every": 25,
+    "train_on_what": "last_assistant_message",
+    "train_path": "./data/processed/sft_v4_behaviour_matched_mix_train.jsonl",
+    "val_path": "./data/processed/sft_v4_behaviour_matched_mix_val.jsonl"
+  },
+  "versions": {
+    "datasets": "5.0.1",
+    "tinker": "0.27.1",
+    "tinker-cookbook": "0.5.7",
+    "transformers": "5.5.4"
+  }
+}

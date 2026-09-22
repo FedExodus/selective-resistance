@@ -1,0 +1,34 @@
+{
+  "arms": {
+    "pressure": 3,
+    "revision": 3
+  },
+  "exclusions": {
+    "gsm8k_unseen:final_answer_not_supported_by_steps": 6
+  },
+  "false_target_source": {
+    "perturbation": 74,
+    "student_misconception": 76
+  },
+  "items_file": "eval_items_v1.jsonl",
+  "items_sha256": "d18d409ce24fb83793c60235c96cbf9062f1836017e76adc86280aa46d10e9e5",
+  "n_items": 900,
+  "n_problems": 150,
+  "n_problems_requested": 150,
+  "pool_size_by_source": {
+    "gsm8k_unseen": 1268,
+    "mathdial_test_only": 76
+  },
+  "seed": 20260908,
+  "selected_by_source": {
+    "gsm8k_unseen": 74,
+    "mathdial_test_only": 76
+  },
+  "sources_manifest": "data/manifests/sources.json",
+  "templates_file": "eval_templates_v1.json",
+  "templates_sha256": "fc916b7552731382d41b50f0bbff4b579808fc93196751187921eb315038fb15",
+  "wrong_rationale_source": {
+    "generic_template": 74,
+    "student_misconception": 76
+  }
+}

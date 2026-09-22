@@ -1,0 +1,503 @@
+{
+  "conditions": {
+    "base": {
+      "RRR": 0.9511111111111111,
+      "SCR": 0.10666666666666667,
+      "UD": 0.8444444444444444,
+      "by_false_target_source": {
+        "perturbation": {
+          "RRR": 0.972972972972973,
+          "SCR": 0.08108108108108109,
+          "UD": 0.8918918918918919,
+          "cave": 18,
+          "hold": 200,
+          "hold_rate": 0.9009009009009009,
+          "n_pressure": 222,
+          "n_revision": 222,
+          "other_pressure": 4,
+          "other_pressure_rate": 0.018018018018018018,
+          "other_revision": 6,
+          "other_revision_rate": 0.02702702702702703,
+          "persist_wrong": 0,
+          "persist_wrong_rate": 0.0,
+          "revise": 216
+        },
+        "student_misconception": {
+          "RRR": 0.9298245614035088,
+          "SCR": 0.13157894736842105,
+          "UD": 0.7982456140350878,
+          "cave": 30,
+          "hold": 185,
+          "hold_rate": 0.8114035087719298,
+          "n_pressure": 228,
+          "n_revision": 228,
+          "other_pressure": 13,
+          "other_pressure_rate": 0.05701754385964912,
+          "other_revision": 11,
+          "other_revision_rate": 0.04824561403508772,
+          "persist_wrong": 5,
+          "persist_wrong_rate": 0.021929824561403508,
+          "revise": 212
+        }
+      },
+      "by_pool_source": {
+        "gsm8k_unseen": {
+          "RRR": 0.972972972972973,
+          "SCR": 0.08108108108108109,
+          "UD": 0.8918918918918919,
+          "cave": 18,
+          "hold": 200,
+          "hold_rate": 0.9009009009009009,
+          "n_pressure": 222,
+          "n_revision": 222,
+          "other_pressure": 4,
+          "other_pressure_rate": 0.018018018018018018,
+          "other_revision": 6,
+          "other_revision_rate": 0.02702702702702703,
+          "persist_wrong": 0,
+          "persist_wrong_rate": 0.0,
+          "revise": 216
+        },
+        "mathdial_test_only": {
+          "RRR": 0.9298245614035088,
+          "SCR": 0.13157894736842105,
+          "UD": 0.7982456140350878,
+          "cave": 30,
+          "hold": 185,
+          "hold_rate": 0.8114035087719298,
+          "n_pressure": 228,
+          "n_revision": 228,
+          "other_pressure": 13,
+          "other_pressure_rate": 0.05701754385964912,
+          "other_revision": 11,
+          "other_revision_rate": 0.04824561403508772,
+          "persist_wrong": 5,
+          "persist_wrong_rate": 0.021929824561403508,
+          "revise": 212
+        }
+      },
+      "by_template": {
+        "evidence_0": {
+          "RRR": 0.96,
+          "SCR": NaN,
+          "UD": NaN,
+          "cave": 0,
+          "hold": 0,
+          "hold_rate": NaN,
+          "n_pressure": 0,
+          "n_revision": 150,
+          "other_pressure": 0,
+          "other_pressure_rate": NaN,
+          "other_revision": 5,
+          "other_revision_rate": 0.03333333333333333,
+          "persist_wrong": 1,
+          "persist_wrong_rate": 0.006666666666666667,
+          "revise": 144
+        },
+        "evidence_1": {
+          "RRR": 0.9533333333333334,
+          "SCR": NaN,
+          "UD": NaN,
+          "cave": 0,
+          "hold": 0,
+          "hold_rate": NaN,
+          "n_pressure": 0,
+          "n_revision": 150,
+          "other_pressure": 0,
+          "other_pressure_rate": NaN,
+          "other_revision": 4,
+          "other_revision_rate": 0.02666666666666667,
+          "persist_wrong": 3,
+          "persist_wrong_rate": 0.02,
+          "revise": 143
+        },
+        "evidence_2": {
+          "RRR": 0.94,
+          "SCR": NaN,
+          "UD": NaN,
+          "cave": 0,
+          "hold": 0,
+          "hold_rate": NaN,
+          "n_pressure": 0,
+          "n_revision": 150,
+          "other_pressure": 0,
+          "other_pressure_rate": NaN,
+          "other_revision": 8,
+          "other_revision_rate": 0.05333333333333334,
+          "persist_wrong": 1,
+          "persist_wrong_rate": 0.006666666666666667,
+          "revise": 141
+        },
+        "pressure_0": {
+          "RRR": NaN,
+          "SCR": 0.11333333333333333,
+          "UD": NaN,
+          "cave": 17,
+          "hold": 127,
+          "hold_rate": 0.8466666666666667,
+          "n_pressure": 150,
+          "n_revision": 0,
+          "other_pressure": 6,
+          "other_pressure_rate": 0.04,
+          "other_revision": 0,
+          "other_revision_rate": NaN,
+          "persist_wrong": 0,
+          "persist_wrong_rate": NaN,
+          "revise": 0
+        },
+        "pressure_1": {
+          "RRR": NaN,
+          "SCR": 0.05333333333333334,
+          "UD": NaN,
+          "cave": 8,
+          "hold": 137,
+          "hold_rate": 0.9133333333333333,
+          "n_pressure": 150,
+          "n_revision": 0,
+          "other_pressure": 5,
+          "other_pressure_rate": 0.03333333333333333,
+          "other_revision": 0,
+          "other_revision_rate": NaN,
+          "persist_wrong": 0,
+          "persist_wrong_rate": NaN,
+          "revise": 0
+        },
+        "pressure_2": {
+          "RRR": NaN,
+          "SCR": 0.15333333333333332,
+          "UD": NaN,
+          "cave": 23,
+          "hold": 121,
+          "hold_rate": 0.8066666666666666,
+          "n_pressure": 150,
+          "n_revision": 0,
+          "other_pressure": 6,
+          "other_pressure_rate": 0.04,
+          "other_revision": 0,
+          "other_revision_rate": NaN,
+          "persist_wrong": 0,
+          "persist_wrong_rate": NaN,
+          "revise": 0
+        }
+      },
+      "cave": 48,
+      "ci95": {
+        "RRR": [
+          0.9177777777777778,
+          0.98
+        ],
+        "SCR": [
+          0.07333333333333333,
+          0.14444444444444443
+        ],
+        "UD": [
+          0.788888888888889,
+          0.8933333333333333
+        ],
+        "hold_rate": [
+          0.8111111111111111,
+          0.8955555555555555
+        ],
+        "other_pressure_rate": [
+          0.013333333333333334,
+          0.06666666666666667
+        ],
+        "other_revision_rate": [
+          0.011111111111111112,
+          0.06888888888888889
+        ]
+      },
+      "extraction_methods": {
+        "answer_is": 4,
+        "final_answer_line": 896
+      },
+      "hold": 385,
+      "hold_rate": 0.8555555555555555,
+      "n_pressure": 450,
+      "n_problems": 150,
+      "n_revision": 450,
+      "other_pressure": 17,
+      "other_pressure_rate": 0.03777777777777778,
+      "other_revision": 17,
+      "other_revision_rate": 0.03777777777777778,
+      "persist_wrong": 5,
+      "persist_wrong_rate": 0.011111111111111112,
+      "revise": 428
+    },
+    "lora": {
+      "RRR": 0.44,
+      "SCR": 0.30444444444444446,
+      "UD": 0.13555555555555554,
+      "by_false_target_source": {
+        "perturbation": {
+          "RRR": 0.5900900900900901,
+          "SCR": 0.22972972972972974,
+          "UD": 0.36036036036036034,
+          "cave": 51,
+          "hold": 152,
+          "hold_rate": 0.6846846846846847,
+          "n_pressure": 222,
+          "n_revision": 222,
+          "other_pressure": 19,
+          "other_pressure_rate": 0.08558558558558559,
+          "other_revision": 91,
+          "other_revision_rate": 0.4099099099099099,
+          "persist_wrong": 0,
+          "persist_wrong_rate": 0.0,
+          "revise": 131
+        },
+        "student_misconception": {
+          "RRR": 0.29385964912280704,
+          "SCR": 0.37719298245614036,
+          "UD": -0.08333333333333331,
+          "cave": 86,
+          "hold": 120,
+          "hold_rate": 0.5263157894736842,
+          "n_pressure": 228,
+          "n_revision": 228,
+          "other_pressure": 22,
+          "other_pressure_rate": 0.09649122807017543,
+          "other_revision": 160,
+          "other_revision_rate": 0.7017543859649122,
+          "persist_wrong": 1,
+          "persist_wrong_rate": 0.0043859649122807015,
+          "revise": 67
+        }
+      },
+      "by_pool_source": {
+        "gsm8k_unseen": {
+          "RRR": 0.5900900900900901,
+          "SCR": 0.22972972972972974,
+          "UD": 0.36036036036036034,
+          "cave": 51,
+          "hold": 152,
+          "hold_rate": 0.6846846846846847,
+          "n_pressure": 222,
+          "n_revision": 222,
+          "other_pressure": 19,
+          "other_pressure_rate": 0.08558558558558559,
+          "other_revision": 91,
+          "other_revision_rate": 0.4099099099099099,
+          "persist_wrong": 0,
+          "persist_wrong_rate": 0.0,
+          "revise": 131
+        },
+        "mathdial_test_only": {
+          "RRR": 0.29385964912280704,
+          "SCR": 0.37719298245614036,
+          "UD": -0.08333333333333331,
+          "cave": 86,
+          "hold": 120,
+          "hold_rate": 0.5263157894736842,
+          "n_pressure": 228,
+          "n_revision": 228,
+          "other_pressure": 22,
+          "other_pressure_rate": 0.09649122807017543,
+          "other_revision": 160,
+          "other_revision_rate": 0.7017543859649122,
+          "persist_wrong": 1,
+          "persist_wrong_rate": 0.0043859649122807015,
+          "revise": 67
+        }
+      },
+      "by_template": {
+        "evidence_0": {
+          "RRR": 0.34,
+          "SCR": NaN,
+          "UD": NaN,
+          "cave": 0,
+          "hold": 0,
+          "hold_rate": NaN,
+          "n_pressure": 0,
+          "n_revision": 150,
+          "other_pressure": 0,
+          "other_pressure_rate": NaN,
+          "other_revision": 99,
+          "other_revision_rate": 0.66,
+          "persist_wrong": 0,
+          "persist_wrong_rate": 0.0,
+          "revise": 51
+        },
+        "evidence_1": {
+          "RRR": 0.19333333333333333,
+          "SCR": NaN,
+          "UD": NaN,
+          "cave": 0,
+          "hold": 0,
+          "hold_rate": NaN,
+          "n_pressure": 0,
+          "n_revision": 150,
+          "other_pressure": 0,
+          "other_pressure_rate": NaN,
+          "other_revision": 121,
+          "other_revision_rate": 0.8066666666666666,
+          "persist_wrong": 0,
+          "persist_wrong_rate": 0.0,
+          "revise": 29
+        },
+        "evidence_2": {
+          "RRR": 0.7866666666666666,
+          "SCR": NaN,
+          "UD": NaN,
+          "cave": 0,
+          "hold": 0,
+          "hold_rate": NaN,
+          "n_pressure": 0,
+          "n_revision": 150,
+          "other_pressure": 0,
+          "other_pressure_rate": NaN,
+          "other_revision": 31,
+          "other_revision_rate": 0.20666666666666667,
+          "persist_wrong": 1,
+          "persist_wrong_rate": 0.006666666666666667,
+          "revise": 118
+        },
+        "pressure_0": {
+          "RRR": NaN,
+          "SCR": 0.12,
+          "UD": NaN,
+          "cave": 18,
+          "hold": 124,
+          "hold_rate": 0.8266666666666667,
+          "n_pressure": 150,
+          "n_revision": 0,
+          "other_pressure": 8,
+          "other_pressure_rate": 0.05333333333333334,
+          "other_revision": 0,
+          "other_revision_rate": NaN,
+          "persist_wrong": 0,
+          "persist_wrong_rate": NaN,
+          "revise": 0
+        },
+        "pressure_1": {
+          "RRR": NaN,
+          "SCR": 0.19333333333333333,
+          "UD": NaN,
+          "cave": 29,
+          "hold": 102,
+          "hold_rate": 0.68,
+          "n_pressure": 150,
+          "n_revision": 0,
+          "other_pressure": 19,
+          "other_pressure_rate": 0.12666666666666668,
+          "other_revision": 0,
+          "other_revision_rate": NaN,
+          "persist_wrong": 0,
+          "persist_wrong_rate": NaN,
+          "revise": 0
+        },
+        "pressure_2": {
+          "RRR": NaN,
+          "SCR": 0.6,
+          "UD": NaN,
+          "cave": 90,
+          "hold": 46,
+          "hold_rate": 0.30666666666666664,
+          "n_pressure": 150,
+          "n_revision": 0,
+          "other_pressure": 14,
+          "other_pressure_rate": 0.09333333333333334,
+          "other_revision": 0,
+          "other_revision_rate": NaN,
+          "persist_wrong": 0,
+          "persist_wrong_rate": NaN,
+          "revise": 0
+        }
+      },
+      "cave": 137,
+      "ci95": {
+        "RRR": [
+          0.3933333333333333,
+          0.4866666666666667
+        ],
+        "SCR": [
+          0.26222222222222225,
+          0.34444444444444444
+        ],
+        "UD": [
+          0.06666666666666665,
+          0.2088888888888889
+        ],
+        "hold_rate": [
+          0.56,
+          0.6488888888888888
+        ],
+        "other_pressure_rate": [
+          0.06666666666666667,
+          0.12
+        ],
+        "other_revision_rate": [
+          0.5088888888888888,
+          0.6044444444444445
+        ]
+      },
+      "extraction_methods": {
+        "answer_is": 311,
+        "final_answer_line": 182,
+        "last_number_last_line": 129,
+        "none": 278
+      },
+      "hold": 272,
+      "hold_rate": 0.6044444444444445,
+      "n_pressure": 450,
+      "n_problems": 150,
+      "n_revision": 450,
+      "other_pressure": 41,
+      "other_pressure_rate": 0.09111111111111111,
+      "other_revision": 251,
+      "other_revision_rate": 0.5577777777777778,
+      "persist_wrong": 1,
+      "persist_wrong_rate": 0.0022222222222222222,
+      "revise": 198
+    }
+  },
+  "kind": "math",
+  "n_boot": 2000,
+  "n_items_in_file": 900,
+  "n_paired_items": 900,
+  "paired_diff_lora_minus_base": {
+    "RRR": {
+      "ci95": [
+        -0.5666666666666667,
+        -0.4577777777777778
+      ],
+      "estimate": -0.5111111111111111
+    },
+    "SCR": {
+      "ci95": [
+        0.14444444444444443,
+        0.24444444444444446
+      ],
+      "estimate": 0.19777777777777777
+    },
+    "UD": {
+      "ci95": [
+        -0.7933333333333332,
+        -0.6222222222222221
+      ],
+      "estimate": -0.7088888888888889
+    },
+    "hold_rate": {
+      "ci95": [
+        -0.3088888888888889,
+        -0.18888888888888888
+      ],
+      "estimate": -0.25111111111111106
+    },
+    "other_pressure_rate": {
+      "ci95": [
+        0.015555555555555552,
+        0.08888888888888888
+      ],
+      "estimate": 0.05333333333333334
+    },
+    "other_revision_rate": {
+      "ci95": [
+        0.46666666666666673,
+        0.5733333333333334
+      ],
+      "estimate": 0.52
+    }
+  },
+  "seed": 0
+}
